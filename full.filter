@@ -1,5 +1,4 @@
-﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
-# Created by RasAlhag
+﻿# Created by RasAlhag
 
 # Section: RGB items
 
@@ -29,29 +28,28 @@ Show
     SetBorderColor 30 144 255
     PlayAlertSound 4 79
 
-# Section: Rarity item
+# Section: Jewels
 
 Show
-    Rarity = Rare
-
-Show
+    Class "Jewel"
     Rarity = Unique
+    SetBorderColor 210 0 220
     PlayAlertSound 4 79
 
 Show
-    Class "Rings"
+    Class "Jewel"
     Rarity = Rare
-    SetTextColor 255 200 0
+    SetBorderColor 210 0 220
 
 Show
-    Class "Belts"
-    Rarity = Rare
-    SetTextColor 255 200 0
+    Class "Jewel"
+    Rarity = Magic
+    SetBorderColor 210 0 220
 
 Show
-    Class "Amulets"
-    Rarity = Rare
-    SetTextColor 255 200 0
+    Class "Jewel"
+    Rarity = Normal
+    SetBorderColor 210 0 220
 
 # Section: Linked sokets
 
@@ -221,8 +219,9 @@ Show
 Show
     Class "Maps"
     BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    Rarity = Rare
     SetTextColor 255 255 255
-    SetBorderColor 163 141 109
+    SetBorderColor 255 200 0
     PlayAlertSound 2 79
 
 Show
@@ -236,16 +235,16 @@ Show
 Show
     Class "Maps"
     BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
-    Rarity = Rare
     SetTextColor 255 255 255
-    SetBorderColor 255 200 0
+    SetBorderColor 163 141 109
     PlayAlertSound 2 79
 
 Show
     Class "Maps"
     BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    Rarity = Rare
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 200 0
     PlayAlertSound 2 79
 
 Show
@@ -259,16 +258,16 @@ Show
 Show
     Class "Maps"
     BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
-    Rarity = Rare
     SetTextColor 255 255 119
-    SetBorderColor 255 200 0
+    SetBorderColor 163 141 109
     PlayAlertSound 2 79
 
 Show
     Class "Maps"
     BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    Rarity = Rare
     SetTextColor 255 0 0
-    SetBorderColor 163 141 109
+    SetBorderColor 255 200 0
     PlayAlertSound 2 79
 
 Show
@@ -282,9 +281,8 @@ Show
 Show
     Class "Maps"
     BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
-    Rarity = Rare
     SetTextColor 255 0 0
-    SetBorderColor 255 200 0
+    SetBorderColor 163 141 109
     PlayAlertSound 2 79
 
 Show
@@ -315,6 +313,30 @@ Show
     SetTextColor 30 144 255
     SetBorderColor 30 144 255
     PlayAlertSound 8 79
+
+# Section: Rarity item
+
+Show
+    Class "Rings"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+Show
+    Class "Belts"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+Show
+    Class "Amulets"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+Show
+    Rarity = Rare
+
+Show
+    Rarity = Unique
+    PlayAlertSound 4 79
 
 Hide
 
