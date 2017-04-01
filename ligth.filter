@@ -1,0 +1,332 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# Created by RasAlhag
+
+# Section: RGB items
+
+#Disabled Block Start
+#Show
+#    LinkedSockets >= 3
+#    SocketGroup "RGB"
+#    Rarity = Rare
+#    SetBorderColor 30 144 255
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    LinkedSockets >= 3
+#    SocketGroup "RGB"
+#    Rarity = Magic
+#    SetTextColor 30 144 255
+#    SetBorderColor 30 144 255
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    LinkedSockets >= 3
+#    SocketGroup "RGB"
+#    Rarity = Normal
+#    SetBorderColor 30 144 255
+#Disabled Block End
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Unique
+    SetBorderColor 30 144 255
+    PlayAlertSound 4 79
+
+# Section: Rarity item
+
+#Disabled Block Start
+#Show
+#    Rarity = Rare
+#Disabled Block End
+
+Show
+    Rarity = Unique
+    PlayAlertSound 4 79
+
+Show
+    Class "Rings"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+Show
+    Class "Belts"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+Show
+    Class "Amulets"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+# Section: Linked sokets
+
+Show
+    LinkedSockets = 6
+    SetTextColor 210 0 220
+    SetBorderColor 175 96 37
+    PlayAlertSound 3 80
+
+Show
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+
+# Section: Orbs
+
+#Disabled Block Start
+#Show
+#    Class "Currency"
+#    BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
+#    SetTextColor 170 158 130
+#Disabled Block End
+
+Show
+    Class "Currency"
+    BaseType "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation" "Perandus Coin"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+Show
+    Class "Currency"
+    BaseType "Orb of Fusing" "Chromatic Orb" "Orb of Alchemy" "Orb of Chance" "Jeweller's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring" "Silver Coin"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Regret" "Vaal Orb" "Regal Orb" "Blessed Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+Show
+    Class "Currency"
+    BaseType "Divine Orb" "Eternal Orb" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 79
+
+# Section: Gems
+
+Show
+    Class "Support Skill Gems"
+    BaseType "Added Chaos Damage Support" "Empower Support" "Enhance Support" "Portal" "Enlighten Support"
+    SetTextColor 180 96 0
+    SetBorderColor 27 162 155
+    PlayAlertSound 4 79
+
+Show
+    Quality >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 200 0
+
+Show
+    Corrupted True
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 40 0 220
+
+#Disabled Block Start
+#Show
+#    Class "Gem"
+#    SetTextColor 27 162 155
+#Disabled Block End
+
+# Section: Legacy
+
+Show
+    Class "Misc Map Items"
+    BaseType "Ancient Reliquary Key"
+    SetTextColor 255 165 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 45
+    PlayAlertSound 1 300
+
+Show
+    Class "Leaguestone"
+    BaseType "Leaguestone"
+    SetTextColor 255 215 0
+    SetBorderColor 0 0 255
+    PlayAlertSound 7 79
+
+Show
+    BaseType "Splinter"
+    SetTextColor 210 0 220
+    SetBorderColor 210 0 220
+    PlayAlertSound 7 79
+
+Show
+    BaseType "Breachstone"
+    SetTextColor 200 200 200
+    SetBorderColor 210 0 220
+    PlayAlertSound 7 79
+
+# Section: Essence
+
+Show
+    Class "Currency"
+    BaseType "Essence"
+    SetTextColor 184 218 242
+    SetBorderColor 184 218 242
+
+Show
+    Class "Currency"
+    BaseType "Offering to the Goddess"
+    SetTextColor 50 230 100
+    SetBorderColor 50 230 100
+
+Show
+    BaseType "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Dusk"
+    SetTextColor 150 0 0
+
+Show
+    BaseType "Sacrifice at Midnight"
+    SetTextColor 150 0 0
+    SetBorderColor 255 215 0
+
+Show
+    Class "Currency"
+    BaseType "Mortal"
+    SetTextColor 0 128 0
+    PlayAlertSound 7 79
+
+Show
+    Class "Currency"
+    BaseType "Fragment"
+    SetTextColor 208 32 144
+    PlayAlertSound 7 79
+
+Show
+    Class "Currency"
+    BaseType "Apprentice Cartographer's Sextant"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Journeyman Cartographer's Sextant"
+    SetTextColor 255 200 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Master Cartographer's Sextant"
+    SetTextColor 255 0 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    BaseType "Prophecy"
+    SetTextColor 210 0 220
+
+# Section: Maps
+
+Show
+    Class "Maps"
+    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    Rarity = Magic
+    SetTextColor 255 255 255
+    SetBorderColor 136 136 255
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    Rarity = Rare
+    SetTextColor 255 255 255
+    SetBorderColor 255 200 0
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    Rarity = Magic
+    SetTextColor 255 255 119
+    SetBorderColor 136 136 255
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBorderColor 255 200 0
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    Rarity = Normal
+    SetTextColor 255 0 0
+    SetBorderColor 136 136 255
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    Rarity = Rare
+    SetTextColor 255 0 0
+    SetBorderColor 255 200 0
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Forge of the Phoenix Map" "Lair of the Hydra Map" "Maze of the Minotaur Map" "Pit of the Chimera Map" "Vaal Temple Map" "The Shaper's Realm"
+    SetTextColor 255 0 0
+    SetBorderColor 175 96 37
+    PlayAlertSound 6 79
+
+Show
+    Class "Maps"
+    Rarity = Unique
+    SetTextColor 175 96 37
+    SetBorderColor 163 141 109
+    PlayAlertSound 6 79
+
+Show
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 200 200 200
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+# Section: Card
+
+Show
+    Class "Divination Card"
+    SetTextColor 30 144 255
+    SetBorderColor 30 144 255
+    PlayAlertSound 8 79
+
+Hide
+
