@@ -1,0 +1,7 @@
+
+Show
+    Class "Currency"
+    BaseType "Fragment"
+    SetTextColor 208 32 144
+    PlayAlertSound 7 79
+

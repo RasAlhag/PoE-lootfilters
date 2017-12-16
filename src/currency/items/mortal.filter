@@ -1,0 +1,7 @@
+
+Show
+    Class "Currency"
+    BaseType "Mortal"
+    SetTextColor 0 128 0
+    PlayAlertSound 7 79
+

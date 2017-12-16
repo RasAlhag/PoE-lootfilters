@@ -1,0 +1,502 @@
+# Created by RasAlhag
+
+
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBorderColor 30 144 255
+
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Normal
+    SetBorderColor 30 144 255
+
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Rare
+    SetBorderColor 30 144 255
+
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Unique
+    SetBorderColor 30 144 255
+    PlayAlertSound 4 79
+
+
+Show
+    LinkedSockets = 5
+    Sockets >= 5
+    SetBackgroundColor 127 127 127
+    SetBorderColor 208 32 144
+
+
+Show
+    LinkedSockets = 6
+    SetTextColor 210 0 220
+    SetBorderColor 175 96 37
+    PlayAlertSound 3 80
+
+
+Show
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+    
+
+Show
+    Class "Jewel"
+    Rarity = Magic
+    SetBorderColor 210 0 220
+
+
+Show
+    Class "Jewel"
+    Rarity = Normal
+    SetBorderColor 210 0 220
+
+
+Show
+    Class "Jewel"
+    Rarity = Rare
+    SetBorderColor 210 0 220
+
+
+Show
+    Class "Jewel"
+    Rarity = Unique
+    SetBorderColor 210 0 220
+    PlayAlertSound 4 79
+
+# Section: Legacy-Breachstone
+
+Show
+    Class "Misc Map Items"
+    BaseType "Ancient Reliquary Key"
+    SetTextColor 255 165 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 45
+    PlayAlertSound 1 300
+
+Show
+    Class "Leaguestone"
+    BaseType "Leaguestone"
+    SetTextColor 255 215 0
+    SetBorderColor 0 0 255
+    PlayAlertSound 7 79
+
+Show
+    BaseType "Splinter"
+    SetTextColor 210 0 220
+    SetBorderColor 210 0 220
+    PlayAlertSound 7 79
+
+Show
+    BaseType "Breachstone"
+    SetTextColor 200 200 200
+    SetBorderColor 210 0 220
+    PlayAlertSound 7 79
+
+
+
+Show
+    Class "Support Skill Gems"
+    BaseType "Added Chaos Damage Support" "Empower Support" "Enhance Support" "Portal" "Enlighten Support" "Detonate Mines"
+    SetTextColor 180 96 0
+    SetBorderColor 27 162 155
+    PlayAlertSound 4 79
+
+
+Show
+    Quality >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 200 0
+
+
+Show
+    Corrupted True
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 40 0 220
+
+#
+Show
+    ItemLevel >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 0 128 0
+
+
+
+Show
+    Class "Gem"
+    SetTextColor 27 162 155
+
+
+Show
+    Class "Currency"
+    BaseType "Albino Rhoa Feather"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Alchemy"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Blessed Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+# Section: Card
+
+Show
+    Class "Divination Card"
+    SetTextColor 30 144 255
+    SetBorderColor 30 144 255
+    PlayAlertSound 8 79
+
+
+
+Show
+    Class "Currency"
+    BaseType "Cartographer's Chisel"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Chance"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Chaos Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Chromatic Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Divine Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 80
+
+
+Show
+    Class "Currency"
+    BaseType "Essence"
+    SetTextColor 184 218 242
+    SetBorderColor 184 218 242
+
+
+Show
+    Class "Currency"
+    BaseType "Eternal Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Exalted Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Fishing Rod"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Fragment"
+    SetTextColor 208 32 144
+    PlayAlertSound 7 79
+
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Fusing"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Gemcutter's Prism"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Jeweller's Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Mirror of Kalandra"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Mortal"
+    SetTextColor 0 128 0
+    PlayAlertSound 7 79
+
+
+
+Show
+    BaseType "Offering to the Goddess"
+    SetTextColor 50 230 100
+    SetBorderColor 50 230 100
+
+
+
+Show
+    Class "Currency"
+    BaseType "Perandus Coin"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+
+Show
+    Class "Currency"
+    BaseType "Regal Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Regret"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    BaseType "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Dusk"
+    SetTextColor 150 0 0
+
+
+Show
+    BaseType "Sacrifice at Midnight"
+    SetTextColor 150 0 0
+    SetBorderColor 255 215 0
+
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Scouring"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Apprentice Cartographer's Sextant"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Journeyman Cartographer's Sextant"
+    SetTextColor 255 200 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Master Cartographer's Sextant"
+    SetTextColor 255 0 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+
+
+Show
+    Class "Currency"
+    BaseType "Silver Coin"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Vaal Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Alteration"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+Show
+    Class "Currency"
+    BaseType "Armourer's Scrap"
+    SetTextColor 170 158 130
+
+Show
+    Class "Currency"
+    BaseType "Orb of Augmentation"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+Show
+    Class "Currency"
+    BaseType "Blacksmith's Whetstone"
+    SetTextColor 170 158 130
+
+Show
+    Class "Currency"
+    BaseType "Glassblower's Bauble"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Portal Scroll"
+    SetTextColor 170 158 130
+
+Show
+    Class "Currency"
+    BaseType "Orb of Transmutation"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+Show
+    Class "Currency"
+    BaseType "Scroll of Wisdom"
+    SetTextColor 170 158 130
+
+Show
+    Class "Belts"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+
+Show
+    Class "Amulets"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+
+Show
+    Class "Rings"
+    Rarity = Rare
+    SetTextColor 255 200 0
+
+
+Show
+    Class "Boots"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+
+
+Show
+    Class "Gloves"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+
+
+Show
+    Class "Helmets"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+
+
+Show
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 200 200 200
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+Show
+    Rarity = Unique
+    Class "Maps"
+    SetTextColor 175 96 37
+    SetBorderColor 163 141 109
+    PlayAlertSound 4 79
+
+
+Show
+    Rarity = Rare
+
+
+Show
+    Rarity = Unique
+    PlayAlertSound 4 79
+
+# Section: hiden
+
+Hide
+

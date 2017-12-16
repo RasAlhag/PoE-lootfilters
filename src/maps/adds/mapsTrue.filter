@@ -1,0 +1,7 @@
+
+Show
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 200 200 200
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79

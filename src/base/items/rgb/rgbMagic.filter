@@ -1,0 +1,7 @@
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBorderColor 30 144 255

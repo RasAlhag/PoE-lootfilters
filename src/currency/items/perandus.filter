@@ -1,0 +1,6 @@
+
+Show
+    Class "Currency"
+    BaseType "Perandus Coin"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255

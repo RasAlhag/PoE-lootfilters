@@ -1,0 +1,6 @@
+
+Show
+    Class "Jewel"
+    Rarity = Unique
+    SetBorderColor 210 0 220
+    PlayAlertSound 4 79

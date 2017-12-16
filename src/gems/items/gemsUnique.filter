@@ -1,0 +1,7 @@
+
+Show
+    Class "Support Skill Gems"
+    BaseType "Added Chaos Damage Support" "Empower Support" "Enhance Support" "Portal" "Enlighten Support" "Detonate Mines"
+    SetTextColor 180 96 0
+    SetBorderColor 27 162 155
+    PlayAlertSound 4 79

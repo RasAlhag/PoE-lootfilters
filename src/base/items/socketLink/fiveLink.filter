@@ -1,0 +1,6 @@
+
+Show
+    LinkedSockets = 5
+    Sockets >= 5
+    SetBackgroundColor 127 127 127
+    SetBorderColor 208 32 144

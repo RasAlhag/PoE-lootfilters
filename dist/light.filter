@@ -1,5 +1,4 @@
-﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
-# Created by RasAlhag
+﻿# Created by RasAlhag
 
 # Section: RGB items
 
@@ -278,7 +277,7 @@ Show
 
 Show
     Class "Maps"
-    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
     Rarity = Rare
     SetTextColor 255 255 119
     SetBorderColor 255 200 0
@@ -286,7 +285,7 @@ Show
 
 Show
     Class "Maps"
-    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
     Rarity = Magic
     SetTextColor 255 255 119
     SetBorderColor 136 136 255
@@ -294,7 +293,7 @@ Show
 
 Show
     Class "Maps"
-    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Quay Map" "Terrace Map" "Underground River Map"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

@@ -1,0 +1,22 @@
+
+Show
+    Class "Currency"
+    BaseType "Apprentice Cartographer's Sextant"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Journeyman Cartographer's Sextant"
+    SetTextColor 255 200 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Master Cartographer's Sextant"
+    SetTextColor 255 0 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+

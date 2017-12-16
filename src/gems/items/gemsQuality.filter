@@ -1,0 +1,6 @@
+
+Show
+    Quality >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 200 0

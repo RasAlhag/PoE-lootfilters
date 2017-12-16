@@ -1,0 +1,6 @@
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Rare
+    SetBorderColor 30 144 255

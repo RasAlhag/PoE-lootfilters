@@ -1,0 +1,7 @@
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Unique
+    SetBorderColor 30 144 255
+    PlayAlertSound 4 79

@@ -1,0 +1,7 @@
+
+Show
+    Rarity = Unique
+    Class "Maps"
+    SetTextColor 175 96 37
+    SetBorderColor 163 141 109
+    PlayAlertSound 4 79

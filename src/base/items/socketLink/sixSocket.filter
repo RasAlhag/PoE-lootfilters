@@ -1,0 +1,7 @@
+
+Show
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+    

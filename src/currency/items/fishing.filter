@@ -1,0 +1,7 @@
+
+Show
+    Class "Currency"
+    BaseType "Fishing Rod"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
