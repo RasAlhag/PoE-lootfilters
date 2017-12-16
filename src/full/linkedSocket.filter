@@ -1,0 +1,21 @@
+# Section: Linked sockets
+
+Show
+    LinkedSockets = 6
+    SetTextColor 210 0 220
+    SetBorderColor 175 96 37
+    PlayAlertSound 3 80
+
+Show
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+
+Show
+    LinkedSockets = 5
+    Sockets >= 5
+    SetBackgroundColor 127 127 127
+    SetBorderColor 208 32 144
+
+    

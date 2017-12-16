@@ -1,0 +1,44 @@
+﻿# Section: hedin-light
+
+#Disabled Block Start
+#Hide
+#    Class "Body Armours" "Bows" "Claws" "One Hand Swords" "Thrusting One Hand Swords" "Daggers" "Wands"
+#    Rarity = Rare
+#    SetBorderColor 30 144 255
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    LinkedSockets >= 3
+#    SocketGroup "RGB"
+#    Rarity = Magic
+#    SetTextColor 30 144 255
+#    SetBorderColor 30 144 255
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    LinkedSockets >= 3
+#    SocketGroup "RGB"
+#    Rarity = Normal
+#    SetBorderColor 30 144 255
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    Rarity = Rare
+#Disabled Block End
+
+#Disabled Block Start
+#Hide
+#    Class "Currency"
+#    BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
+#    SetTextColor 170 158 130
+#Disabled Block End
+
+#Disabled Block Start
+#Show
+#    Class "Gem"
+#    SetTextColor 27 162 155
+#Disabled Block End
+

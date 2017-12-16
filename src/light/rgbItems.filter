@@ -1,0 +1,28 @@
+# Section: RGB items
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Rare
+    SetBorderColor 30 144 255
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBorderColor 30 144 255
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Normal
+    SetBorderColor 30 144 255
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Unique
+    SetBorderColor 30 144 255
+    PlayAlertSound 4 79
+

@@ -1,0 +1,55 @@
+# Section: Essence
+
+Show
+    Class "Currency"
+    BaseType "Essence"
+    SetTextColor 184 218 242
+    SetBorderColor 184 218 242
+
+Show
+    BaseType "Offering to the Goddess"
+    SetTextColor 50 230 100
+    SetBorderColor 50 230 100
+
+Show
+    BaseType "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Dusk"
+    SetTextColor 150 0 0
+
+Show
+    BaseType "Sacrifice at Midnight"
+    SetTextColor 150 0 0
+    SetBorderColor 255 215 0
+
+Show
+    Class "Currency"
+    BaseType "Mortal"
+    SetTextColor 0 128 0
+    PlayAlertSound 7 79
+
+Show
+    Class "Currency"
+    BaseType "Fragment"
+    SetTextColor 208 32 144
+    PlayAlertSound 7 79
+
+Show
+    Class "Currency"
+    BaseType "Apprentice Cartographer's Sextant"
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Journeyman Cartographer's Sextant"
+    SetTextColor 255 200 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Master Cartographer's Sextant"
+    SetTextColor 255 0 0
+    SetBorderColor 255 255 255
+    PlayAlertSound 9 79
+

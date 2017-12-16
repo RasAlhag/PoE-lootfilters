@@ -1,0 +1,25 @@
+# Section: Gems
+
+Show
+    Class "Support Skill Gems"
+    BaseType "Added Chaos Damage Support" "Empower Support" "Enhance Support" "Portal" "Enlighten Support"
+    SetTextColor 180 96 0
+    SetBorderColor 27 162 155
+    PlayAlertSound 4 79
+
+Show
+    Quality >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 200 0
+
+Show
+    Corrupted True
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 40 0 220
+
+Show
+    Class "Gem"
+    SetTextColor 27 162 155
+

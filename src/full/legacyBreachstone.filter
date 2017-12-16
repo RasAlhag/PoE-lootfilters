@@ -1,0 +1,30 @@
+# Section: Legacy-Breachstone
+
+Show
+    Class "Misc Map Items"
+    BaseType "Ancient Reliquary Key"
+    SetTextColor 255 165 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 215 0
+    SetFontSize 45
+    PlayAlertSound 1 300
+
+Show
+    Class "Leaguestone"
+    BaseType "Leaguestone"
+    SetTextColor 255 215 0
+    SetBorderColor 0 0 255
+    PlayAlertSound 7 79
+
+Show
+    BaseType "Splinter"
+    SetTextColor 210 0 220
+    SetBorderColor 210 0 220
+    PlayAlertSound 7 79
+
+Show
+    BaseType "Breachstone"
+    SetTextColor 200 200 200
+    SetBorderColor 210 0 220
+    PlayAlertSound 7 79
+

@@ -1,0 +1,93 @@
+# Section: Maps
+
+Show
+    Class "Maps"
+    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    Rarity = Rare
+    SetTextColor 255 255 255
+    SetBorderColor 255 200 0
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    Rarity = Magic
+    SetTextColor 255 255 255
+    SetBorderColor 136 136 255
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBorderColor 255 200 0
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
+    Rarity = Magic
+    SetTextColor 255 255 119
+    SetBorderColor 136 136 255
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    Rarity = Rare
+    SetTextColor 255 0 0
+    SetBorderColor 255 200 0
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    Rarity = Normal
+    SetTextColor 255 0 0
+    SetBorderColor 136 136 255
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+Show
+    Class "Maps"
+    BaseType "Forge of the Phoenix Map" "Lair of the Hydra Map" "Maze of the Minotaur Map" "Pit of the Chimera Map" "Vaal Temple Map" "The Shaper's Realm"
+    SetTextColor 255 0 0
+    SetBorderColor 175 96 37
+    PlayAlertSound 4 79
+
+Show
+    Class "Maps"
+    Rarity = Unique
+    SetTextColor 175 96 37
+    SetBorderColor 163 141 109
+    PlayAlertSound 4 79
+
+Show
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBackgroundColor 200 200 200
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+    

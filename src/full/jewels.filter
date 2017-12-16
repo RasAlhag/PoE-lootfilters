@@ -1,0 +1,23 @@
+﻿# Section: Jewels
+
+Show
+    Class "Jewel"
+    Rarity = Unique
+    SetBorderColor 210 0 220
+    PlayAlertSound 4 79
+
+Show
+    Class "Jewel"
+    Rarity = Rare
+    SetBorderColor 210 0 220
+
+Show
+    Class "Jewel"
+    Rarity = Magic
+    SetBorderColor 210 0 220
+
+Show
+    Class "Jewel"
+    Rarity = Normal
+    SetBorderColor 210 0 220
+

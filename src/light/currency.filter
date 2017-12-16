@@ -1,0 +1,34 @@
+# Section: Currency
+
+Show
+    Class "Currency"
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetTextColor 170 158 130
+
+Show
+    Class "Currency"
+    BaseType "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation" "Perandus Coin"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+Show
+    Class "Currency"
+    BaseType "Orb of Fusing" "Chromatic Orb" "Orb of Alchemy" "Orb of Chance" "Jeweller's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring" "Silver Coin"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+Show
+    Class "Currency"
+    BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Regret" "Vaal Orb" "Regal Orb" "Blessed Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+Show
+    Class "Currency"
+    BaseType "Divine Orb" "Eternal Orb" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 79
+
