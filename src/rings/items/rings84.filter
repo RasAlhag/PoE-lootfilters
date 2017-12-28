@@ -1,0 +1,9 @@
+﻿#
+Show
+    ItemLevel >= 84
+    Rarity = Normal
+    Class "Rings"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+    SetBorderColor 231 180 120
+

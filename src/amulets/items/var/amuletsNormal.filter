@@ -1,0 +1,7 @@
+﻿#
+Show
+    Rarity = Normal
+    Class "Amulets"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+

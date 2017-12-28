@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Opal Ring"
+    SetTextColor 0 0 255
+    SetBackgroundColor 184 218 242
+    PlayAlertSoundPositional 14 79
+

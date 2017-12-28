@@ -1,0 +1,7 @@
+﻿#
+Show
+    Rarity = Rare
+    Class "Body Armours"
+    SetTextColor 255 255 119
+    SetBorderColor 127 127 127
+

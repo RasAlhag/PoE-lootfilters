@@ -1,1 +1,8 @@
-t3 
+#
+Show
+    ItemLevel = 3
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+

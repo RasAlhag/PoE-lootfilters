@@ -1,166 +1,40 @@
-﻿# Created by RasAlhag
+# Created by RasAlhag
 
-# Section: RGB items
 
-#Disabled Block Start
-#Show
-#    LinkedSockets >= 3
-#    SocketGroup "RGB"
-#    Rarity = Rare
-#    SetBorderColor 30 144 255
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    LinkedSockets >= 3
-#    SocketGroup "RGB"
-#    Rarity = Magic
-#    SetTextColor 30 144 255
-#    SetBorderColor 30 144 255
-#Disabled Block End
-
-#Disabled Block Start
-#Show
-#    LinkedSockets >= 3
-#    SocketGroup "RGB"
-#    Rarity = Normal
-#    SetBorderColor 30 144 255
-#Disabled Block End
-
-Show
-    LinkedSockets >= 3
-    SocketGroup "RGB"
-    Rarity = Unique
-    SetBorderColor 30 144 255
-    PlayAlertSound 4 79
-
-# Section: Jewels
-
-Show
-    Class "Jewel"
-    Rarity = Unique
-    SetBorderColor 210 0 220
-    PlayAlertSound 4 79
-
-Show
-    Class "Jewel"
-    Rarity = Rare
-    SetBorderColor 210 0 220
 
 Show
     Class "Jewel"
     Rarity = Magic
     SetBorderColor 210 0 220
 
+
 Show
     Class "Jewel"
     Rarity = Normal
     SetBorderColor 210 0 220
 
-# Section: Rarity item
 
 Show
-    Class "Rings"
+    Class "Jewel"
     Rarity = Rare
-    SetTextColor 255 200 0
+    SetBorderColor 210 0 220
+
 
 Show
-    Class "Belts"
-    Rarity = Rare
-    SetTextColor 255 200 0
-
-Show
-    Class "Amulets"
-    Rarity = Rare
-    SetTextColor 255 200 0
-
-#Disabled Block Start
-#Show
-#    Rarity = Rare
-#Disabled Block End
-
-Show
+    Class "Jewel"
     Rarity = Unique
+    SetBorderColor 210 0 220
     PlayAlertSound 4 79
 
-# Section: Linked sokets
-
+#
 Show
     LinkedSockets = 6
     SetTextColor 210 0 220
     SetBorderColor 175 96 37
-    PlayAlertSound 3 80
+    PlayAlertSound 10 80
 
-Show
-    Sockets = 6
-    SetTextColor 255 192 203
-    SetBorderColor 208 32 144
-    PlayAlertSound 9 79
 
-# Section: Orbs
-
-#Disabled Block Start
-#Show
-#    Class "Currency"
-#    BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
-#    SetTextColor 170 158 130
-#Disabled Block End
-
-Show
-    Class "Currency"
-    BaseType "Orb of Alteration" "Orb of Augmentation" "Orb of Transmutation" "Perandus Coin"
-    SetTextColor 170 158 130
-    SetBorderColor 136 136 255
-
-Show
-    Class "Currency"
-    BaseType "Orb of Fusing" "Chromatic Orb" "Orb of Alchemy" "Orb of Chance" "Jeweller's Orb" "Cartographer's Chisel" "Glassblower's Bauble" "Orb of Scouring" "Silver Coin"
-    SetTextColor 231 180 120
-    SetBorderColor 30 144 255
-    PlayAlertSound 9 79
-
-Show
-    Class "Currency"
-    BaseType "Chaos Orb" "Gemcutter's Prism" "Orb of Regret" "Vaal Orb" "Regal Orb" "Blessed Orb"
-    SetTextColor 231 180 120
-    SetBorderColor 231 180 120
-    PlayAlertSound 3 79
-
-Show
-    Class "Currency"
-    BaseType "Divine Orb" "Eternal Orb" "Exalted Orb" "Mirror of Kalandra" "Fishing Rod" "Albino Rhoa Feather"
-    SetTextColor 231 180 120
-    SetBorderColor 210 0 220
-    PlayAlertSound 5 79
-
-# Section: Gems
-
-Show
-    Class "Support Skill Gems"
-    BaseType "Added Chaos Damage Support" "Empower Support" "Enhance Support" "Portal" "Enlighten Support"
-    SetTextColor 180 96 0
-    SetBorderColor 27 162 155
-    PlayAlertSound 4 79
-
-Show
-    Quality >= 1
-    Class "Gem"
-    SetTextColor 27 162 155
-    SetBorderColor 255 200 0
-
-Show
-    Corrupted True
-    Class "Gem"
-    SetTextColor 27 162 155
-    SetBorderColor 255 40 0 220
-
-#Disabled Block Start
-#Show
-#    Class "Gem"
-#    SetTextColor 27 162 155
-#Disabled Block End
-
-# Section: Legacy
+# Section: Legacy-Breachstone
 
 Show
     Class "Misc Map Items"
@@ -190,7 +64,117 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 7 79
 
-# Section: Essence
+
+
+Show
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+    
+
+Show
+    Class "Support Skill Gems"
+    BaseType "Added Chaos Damage Support" "Empower Support" "Enhance Support" "Portal" "Enlighten Support" "Detonate Mines"
+    SetTextColor 180 96 0
+    SetBorderColor 27 162 155
+    PlayAlertSound 4 79
+
+
+Show
+    Quality >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 200 0
+
+
+Show
+    Corrupted True
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 255 40 0 220
+
+#
+Show
+    ItemLevel >= 1
+    Class "Gem"
+    SetTextColor 27 162 155
+    SetBorderColor 0 128 0
+
+
+
+Show
+    Class "Currency"
+    BaseType "Albino Rhoa Feather"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Alchemy"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Blessed Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+# Section: Card
+
+Show
+    Class "Divination Card"
+    SetTextColor 30 144 255
+    SetBorderColor 30 144 255
+    PlayAlertSound 8 79
+
+
+
+Show
+    Class "Currency"
+    BaseType "Cartographer's Chisel"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Chance"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Chaos Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Chromatic Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Divine Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 80
+
 
 Show
     Class "Currency"
@@ -198,20 +182,70 @@ Show
     SetTextColor 184 218 242
     SetBorderColor 184 218 242
 
+
 Show
     Class "Currency"
-    BaseType "Offering to the Goddess"
-    SetTextColor 50 230 100
-    SetBorderColor 50 230 100
+    BaseType "Eternal Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
 
 Show
-    BaseType "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Dusk"
-    SetTextColor 150 0 0
+    Class "Currency"
+    BaseType "Exalted Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
 
 Show
-    BaseType "Sacrifice at Midnight"
-    SetTextColor 150 0 0
-    SetBorderColor 255 215 0
+    Class "Currency"
+    BaseType "Fishing Rod"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
+Show
+    Class "Currency"
+    BaseType "Fragment"
+    SetTextColor 208 32 144
+    PlayAlertSound 7 79
+
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Fusing"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Gemcutter's Prism"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Jeweller's Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Mirror of Kalandra"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
 
 Show
     Class "Currency"
@@ -219,11 +253,57 @@ Show
     SetTextColor 0 128 0
     PlayAlertSound 7 79
 
+
+
+Show
+    BaseType "Offering to the Goddess"
+    SetTextColor 50 230 100
+    SetBorderColor 50 230 100
+
+
+
 Show
     Class "Currency"
-    BaseType "Fragment"
-    SetTextColor 208 32 144
-    PlayAlertSound 7 79
+    BaseType "Perandus Coin"
+    SetTextColor 170 158 130
+    SetBorderColor 136 136 255
+
+
+Show
+    Class "Currency"
+    BaseType "Regal Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Regret"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    BaseType "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Dusk"
+    SetTextColor 150 0 0
+
+
+Show
+    BaseType "Sacrifice at Midnight"
+    SetTextColor 150 0 0
+    SetBorderColor 255 215 0
+
+
+
+Show
+    Class "Currency"
+    BaseType "Orb of Scouring"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
 
 Show
     Class "Currency"
@@ -246,94 +326,230 @@ Show
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
 
-Show
-    BaseType "Prophecy"
-    SetTextColor 210 0 220
 
-# Section: Maps
 
 Show
-    Class "Maps"
-    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
+    Class "Currency"
+    BaseType "Silver Coin"
+    SetTextColor 231 180 120
+    SetBorderColor 30 144 255
+    PlayAlertSound 9 79
+
+
+Show
+    Class "Currency"
+    BaseType "Vaal Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
+Show
+    Class "Belts"
     Rarity = Rare
-    SetTextColor 255 255 255
-    SetBorderColor 255 200 0
-    PlayAlertSound 2 79
+    SetTextColor 255 200 0
+
 
 Show
-    Class "Maps"
-    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
-    Rarity = Magic
-    SetTextColor 255 255 255
-    SetBorderColor 136 136 255
-    PlayAlertSound 2 79
-
-Show
-    Class "Maps"
-    BaseType "Arcade Map" "Crystal Ore Map" "Desert Map" "Jungle Valley Map" "Beach Map" "Factory Map" "Ghetto Map" "Oasis Map" "Arid Lake Map" "Cavern Map" "Channel Map" "Grotto Map" "Marshes Map" "Sewer Map" "Vaal Pyramid Map" "Academy Map" "Acid Lakes Map" "Dungeon Map" "Graveyard Map" "Phantasmagoria Map" "Villa Map" "Waste Pool Map" "Burial Chambers Map" "Dunes Map" "Mesa Map" "Peninsula Map" "Pit Map" "Primordial Pool Map" "Spider Lair Map" "Tower Map"
-    SetTextColor 255 255 255
-    SetBorderColor 163 141 109
-    PlayAlertSound 2 79
-
-Show
-    Class "Maps"
-    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
+    Class "Amulets"
     Rarity = Rare
-    SetTextColor 255 255 119
-    SetBorderColor 255 200 0
-    PlayAlertSound 2 79
+    SetTextColor 255 200 0
 
+#
 Show
-    Class "Maps"
-    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
-    Rarity = Magic
-    SetTextColor 255 255 119
-    SetBorderColor 136 136 255
-    PlayAlertSound 2 79
-
-Show
-    Class "Maps"
-    BaseType "Canyon Map" "Quarry Map" "Racecourse Map" "Ramparts Map" "Spider Forest Map" "Strand Map" "Thicket Map" "Vaal City Map" "Wharf Map" "Arachnid Tomb Map" "Armoury Map" "Ashen Wood Map" "Castle Ruins Map" "Catacombs Map" "Cells Map" "Mud Geyser Map" "Arachnid Nest Map" "Arena Map" "Atoll Map" "Barrows Map" "Bog Map" "Cemetery Map" "Pier Map" "Shore Map" "Tropical Island Map" "Coves Map" "Crypt Map" "Museum Map" "Orchard Map" "Overgrown Shrine Map" "Promenade Map" "Reef Map" "Temple Map" "Arsenal Map" "Colonnade Map" "Courtyard Map" "Malformation Map" "Terrace Map" "Underground River Map"
-    SetTextColor 255 255 119
-    SetBorderColor 163 141 109
-    PlayAlertSound 2 79
-
-Show
-    Class "Maps"
-    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
-    Rarity = Rare
-    SetTextColor 255 0 0
-    SetBorderColor 255 200 0
-    PlayAlertSound 2 79
-
-Show
-    Class "Maps"
-    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
+    ItemLevel >= 80
     Rarity = Normal
-    SetTextColor 255 0 0
-    SetBorderColor 136 136 255
-    PlayAlertSound 2 79
+    Class "Rings"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 255
+
+
+#
+Show
+    ItemLevel >= 84
+    Rarity = Normal
+    Class "Rings"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+    SetBorderColor 231 180 120
+
+
+#
+Show
+    BaseType "Opal Ring"
+    SetTextColor 0 0 255
+    SetBackgroundColor 184 218 242
+    PlayAlertSoundPositional 14 79
+
+
 
 Show
-    Class "Maps"
-    BaseType "Bazaar Map" "Chateau Map" "Excavation Map" "Precinct Map" "Torture Chamber Map" "Underground Sea Map" "Wasteland Map" "Crematorium Map" "Estuary Map" "Ivory Temple Map" "Necropolis Map" "Plateau Map" "Residence Map" "Shipyard Map" "Vault Map" "Beacon Map" "Gorge Map" "High Gardens Map" "Lair Map" "Plaza Map" "Scriptorium Map" "Sulphur Wastes Map" "Waterways Map" "Maze Map" "Mineral Pools Map" "Palace Map" "Shrine Map" "Springs Map" "Volcano Map" "Abyss Map" "Colosseum Map" "Core Map" "Dark Forest Map" "Overgrown Ruin Map"
-    SetTextColor 255 0 0
-    SetBorderColor 163 141 109
-    PlayAlertSound 2 79
+    Class "Rings"
+    Rarity = Rare
+    SetTextColor 255 200 0
 
+#
 Show
-    Class "Maps"
-    BaseType "Forge of the Phoenix Map" "Lair of the Hydra Map" "Maze of the Minotaur Map" "Pit of the Chimera Map" "Vaal Temple Map" "The Shaper's Realm"
-    SetTextColor 255 0 0
-    SetBorderColor 175 96 37
-    PlayAlertSound 6 79
+    BaseType "Steel Ring"
+    SetTextColor 0 0 255
+    SetBackgroundColor 30 144 255
+    PlayAlertSoundPositional 14 79
 
+
+#
 Show
-    Class "Maps"
     Rarity = Unique
+    Class "Maps"
     SetTextColor 175 96 37
     SetBorderColor 163 141 109
     PlayAlertSound 6 79
+
+    
+#
+Show
+    ItemLevel = 1
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 10
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 11
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 12
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 13
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 14
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 15
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 16
+    Class "Maps"
+    SetTextColor 0 128 0
+    SetBorderColor 175 96 37
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 2
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 3
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 4
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 5
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 6
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 7
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 8
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 9
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
 
 Show
     Class "Maps"
@@ -342,13 +558,16 @@ Show
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
 
-# Section: Card
 
 Show
-    Class "Divination Card"
-    SetTextColor 30 144 255
-    SetBorderColor 30 144 255
-    PlayAlertSound 8 79
+    Rarity = Rare
+
+
+Show
+    Rarity = Unique
+    PlayAlertSound 4 79
+
+# Section: hiden
 
 Hide
 

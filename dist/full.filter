@@ -3,6 +3,46 @@
 
 
 Show
+    Class "Jewel"
+    Rarity = Magic
+    SetBorderColor 210 0 220
+
+
+Show
+    Class "Jewel"
+    Rarity = Normal
+    SetBorderColor 210 0 220
+
+
+Show
+    Class "Jewel"
+    Rarity = Rare
+    SetBorderColor 210 0 220
+
+
+Show
+    Class "Jewel"
+    Rarity = Unique
+    SetBorderColor 210 0 220
+    PlayAlertSound 4 79
+
+#
+Show
+    LinkedSockets = 6
+    SetTextColor 210 0 220
+    SetBorderColor 175 96 37
+    PlayAlertSound 10 80
+
+
+
+Show
+    LinkedSockets = 5
+    Sockets >= 5
+    SetBackgroundColor 127 127 127
+    SetBorderColor 208 32 144
+
+
+Show
     LinkedSockets >= 3
     SocketGroup "RGB"
     Rarity = Magic
@@ -29,52 +69,6 @@ Show
     SocketGroup "RGB"
     Rarity = Unique
     SetBorderColor 30 144 255
-    PlayAlertSound 4 79
-
-
-Show
-    LinkedSockets = 5
-    Sockets >= 5
-    SetBackgroundColor 127 127 127
-    SetBorderColor 208 32 144
-
-
-Show
-    LinkedSockets = 6
-    SetTextColor 210 0 220
-    SetBorderColor 175 96 37
-    PlayAlertSound 3 80
-
-
-Show
-    Sockets = 6
-    SetTextColor 255 192 203
-    SetBorderColor 208 32 144
-    PlayAlertSound 9 79
-    
-
-Show
-    Class "Jewel"
-    Rarity = Magic
-    SetBorderColor 210 0 220
-
-
-Show
-    Class "Jewel"
-    Rarity = Normal
-    SetBorderColor 210 0 220
-
-
-Show
-    Class "Jewel"
-    Rarity = Rare
-    SetBorderColor 210 0 220
-
-
-Show
-    Class "Jewel"
-    Rarity = Unique
-    SetBorderColor 210 0 220
     PlayAlertSound 4 79
 
 # Section: Legacy-Breachstone
@@ -108,6 +102,13 @@ Show
     PlayAlertSound 7 79
 
 
+
+Show
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+    
 
 Show
     Class "Support Skill Gems"
@@ -441,11 +442,63 @@ Show
     Rarity = Rare
     SetTextColor 255 200 0
 
+#
+Show
+    Rarity = Normal
+    Class "Amulets"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+
+
+#
+Show
+    ItemLevel >= 80
+    Rarity = Normal
+    Class "Rings"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 0 255
+
+
+#
+Show
+    ItemLevel >= 84
+    Rarity = Normal
+    Class "Rings"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+    SetBorderColor 231 180 120
+
+
+#
+Show
+    BaseType "Opal Ring"
+    SetTextColor 0 0 255
+    SetBackgroundColor 184 218 242
+    PlayAlertSoundPositional 14 79
+
+
 
 Show
     Class "Rings"
     Rarity = Rare
     SetTextColor 255 200 0
+
+#
+Show
+    BaseType "Steel Ring"
+    SetTextColor 0 0 255
+    SetBackgroundColor 30 144 255
+    PlayAlertSoundPositional 14 79
+
+
+#
+Show
+    Rarity = Normal
+    Class "Rings"
+    SetTextColor 184 218 242
+    SetBackgroundColor 0 0 0
+
 
 
 Show
@@ -471,6 +524,167 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 0 128 0
 
+#
+Show
+    Rarity = Rare
+    Class "Body Armours"
+    SetTextColor 255 255 119
+    SetBorderColor 127 127 127
+
+
+#
+Show
+    Rarity = Unique
+    Class "Maps"
+    SetTextColor 175 96 37
+    SetBorderColor 163 141 109
+    PlayAlertSound 6 79
+
+    
+#
+Show
+    ItemLevel = 1
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 10
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 11
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 12
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 13
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 14
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 15
+    Class "Maps"
+    SetTextColor 255 0 0
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 16
+    Class "Maps"
+    SetTextColor 0 128 0
+    SetBorderColor 175 96 37
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 2
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 3
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 4
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 5
+    Class "Maps"
+    SetTextColor 255 255 255
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 6
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 7
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 8
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
+#
+Show
+    ItemLevel = 9
+    Class "Maps"
+    SetTextColor 255 255 119
+    SetBorderColor 163 141 109
+    PlayAlertSound 2 79
+
+
 
 Show
     Class "Maps"
@@ -478,14 +692,6 @@ Show
     SetBackgroundColor 200 200 200
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
-
-
-Show
-    Rarity = Unique
-    Class "Maps"
-    SetTextColor 175 96 37
-    SetBorderColor 163 141 109
-    PlayAlertSound 4 79
 
 
 Show

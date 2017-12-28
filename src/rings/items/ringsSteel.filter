@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Steel Ring"
+    SetTextColor 0 0 255
+    SetBackgroundColor 30 144 255
+    PlayAlertSoundPositional 14 79
+
