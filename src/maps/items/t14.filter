@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 14
     Class "Maps"
+    BaseType "Acid Lakes Map" "Colosseum Map" "Crimson Temple Map" "Dark Forest Map" "Dig Map" "Palace Map" "Plaza Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

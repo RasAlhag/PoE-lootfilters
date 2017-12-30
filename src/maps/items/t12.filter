@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 12
     Class "Maps"
+    BaseType "Castle Ruins Map" "Crystal Ore Map" "Defiled Cathedral Map" "Necropolis Map" "Overgrown Shrine Map" "Racecourse Map" "Summit Map" "Torture Chamber Map" "Villa Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

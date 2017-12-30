@@ -1,7 +1,7 @@
 ﻿#
 Show
-    ItemLevel = 1
     Class "Maps"
+    BaseType "Beach Map" "Dungeon Map" "Graveyard Map" "Lookout Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

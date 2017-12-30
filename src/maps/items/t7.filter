@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 7
     Class "Maps"
+    BaseType "Arachnid Nest Map" "Bazaar Map" "Bone Crypt Map" "Coral Ruins Map" "Dunes Map" "Gardens Map" "Lava Chamber Map" "Ramparts Map" "Residence Map" "Tribunal Map" "Underground River Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

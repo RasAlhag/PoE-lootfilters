@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 4
     Class "Maps"
+    BaseType "Canyon Map" "Chateau Map" "City Square Map" "Courthouse Map" "Gorge Map" "Grotto Map" "Lighthouse Map" "Relic Chambers Map" "Strand Map" "Volcano Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

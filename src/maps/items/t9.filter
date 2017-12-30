@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 9
     Class "Maps"
+    BaseType "Arena Map" "Estuary Map" "Moon Temple Map" "Museum Map" "Plateau Map" "Scriptorium Map" "Sepulchre Map" "Temple Map" "Tower Map" "Vault Map" "Waste Pool Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

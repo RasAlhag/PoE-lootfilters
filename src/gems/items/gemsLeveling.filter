@@ -1,6 +1,6 @@
 ﻿#
 Show
-    ItemLevel >= 1
+    ItemLevel > 2
     Class "Gem"
     SetTextColor 27 162 155
     SetBorderColor 0 128 0

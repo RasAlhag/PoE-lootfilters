@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 5
     Class "Maps"
+    BaseType "Ancient City Map" "Barrows Map" "Channel Map" "Conservatory Map" "Haunted Mansion Map" "Ivory Temple Map" "Maze Map" "Spider Lair Map" "Sulphur Vents Map" "Toxic Sewer Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

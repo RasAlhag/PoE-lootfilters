@@ -84,6 +84,7 @@ gulp.task('full', function () {
 		maps+items+"/var"+all,
 		maps+adds+all,
 		srcPath+adds+all,
+		srcPath+adds+"/var"+all,
 		srcPath+"/hidden"+fileExtension
 	])
 	.pipe(concat('full.filter'))
@@ -145,6 +146,7 @@ gulp.task('light', function () {
 		//maps+items+"/var"+all,
 		maps+adds+all,
 		srcPath+adds+all,
+		//srcPath+adds+"/var"+all,
 		srcPath+"/hidden"+fileExtension
 	])
 		.pipe(concat('light.filter'))

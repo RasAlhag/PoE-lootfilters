@@ -1,7 +1,7 @@
-#
+﻿#
 Show
-    ItemLevel = 15
     Class "Maps"
+    BaseType "Basilica Map" "Carcass Map" "Lava Lake Map" "Reef Map" "Sunken City Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

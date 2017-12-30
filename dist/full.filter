@@ -133,16 +133,11 @@ Show
 
 #
 Show
-    ItemLevel >= 1
+    ItemLevel > 2
     Class "Gem"
     SetTextColor 27 162 155
     SetBorderColor 0 128 0
 
-
-
-Show
-    Class "Gem"
-    SetTextColor 27 162 155
 
 
 Show
@@ -543,8 +538,17 @@ Show
     
 #
 Show
-    ItemLevel = 1
+    ShapedMap True
+    SetTextColor 255 255 0
+    SetBackgroundColor 163 141 109
+    SetBorderColor 255 255 0
+    PlayAlertSoundPositional 2 79
+
+
+#
+Show
     Class "Maps"
+    BaseType "Beach Map" "Dungeon Map" "Graveyard Map" "Lookout Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -552,8 +556,8 @@ Show
 
 #
 Show
-    ItemLevel = 10
     Class "Maps"
+    BaseType "Arachnid Tomb Map" "Belfry Map" "Bog Map" "Cursed Crypt Map" "Orchard Map" "Pier Map" "Precinct Map" "Shipyard Map" "Siege Map" "Wasteland Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -561,8 +565,8 @@ Show
 
 #
 Show
-    ItemLevel = 11
     Class "Maps"
+    BaseType "Colonnade Map" "Coves Map" "Factory Map" "Lair Map" "Mesa Map" "Pit Map" "Primordial Pool Map" "Promenade Map" "Spider Forest Map" "Waterways Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -570,8 +574,8 @@ Show
 
 #
 Show
-    ItemLevel = 12
     Class "Maps"
+    BaseType "Castle Ruins Map" "Crystal Ore Map" "Defiled Cathedral Map" "Necropolis Map" "Overgrown Shrine Map" "Racecourse Map" "Summit Map" "Torture Chamber Map" "Villa Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -579,8 +583,8 @@ Show
 
 #
 Show
-    ItemLevel = 13
     Class "Maps"
+    BaseType "Arsenal Map" "Caldera Map" "Core Map" "Desert Spring Map" "Ghetto Map" "Malformation Map" "Park Map" "Shrine Map" "Terrace Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -588,8 +592,8 @@ Show
 
 #
 Show
-    ItemLevel = 14
     Class "Maps"
+    BaseType "Acid Lakes Map" "Colosseum Map" "Crimson Temple Map" "Dark Forest Map" "Dig Map" "Palace Map" "Plaza Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -597,8 +601,8 @@ Show
 
 #
 Show
-    ItemLevel = 15
     Class "Maps"
+    BaseType "Basilica Map" "Carcass Map" "Lava Lake Map" "Reef Map" "Sunken City Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -606,8 +610,8 @@ Show
 
 #
 Show
-    ItemLevel = 16
     Class "Maps"
+    BaseType "Forge of the Phoenix Map" "Lair of the Hydra Map" "Maze of the Minotaur Map" "Pit of the Chimera Map" "Vaal Temple Map"
     SetTextColor 0 128 0
     SetBorderColor 175 96 37
     PlayAlertSound 2 79
@@ -615,8 +619,8 @@ Show
 
 #
 Show
-    ItemLevel = 2
     Class "Maps"
+    BaseType "Alleyways Map" "Arid Lake Map" "Desert Map" "Flooded Mine Map" "Marshes Map" "Pen Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -624,8 +628,8 @@ Show
 
 #
 Show
-    ItemLevel = 3
     Class "Maps"
+    BaseType "Arcade Map" "Burial Chambers Map" "Cage Map" "Cells Map" "Excavation Map" "Iceberg Map" "Leyline Map" "Peninsula Map" "Port Map" "Springs Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -633,8 +637,8 @@ Show
 
 #
 Show
-    ItemLevel = 4
     Class "Maps"
+    BaseType "Canyon Map" "Chateau Map" "City Square Map" "Courthouse Map" "Gorge Map" "Grotto Map" "Lighthouse Map" "Relic Chambers Map" "Strand Map" "Volcano Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -642,8 +646,8 @@ Show
 
 #
 Show
-    ItemLevel = 5
     Class "Maps"
+    BaseType "Ancient City Map" "Barrows Map" "Channel Map" "Conservatory Map" "Haunted Mansion Map" "Ivory Temple Map" "Maze Map" "Spider Lair Map" "Sulphur Vents Map" "Toxic Sewer Map"
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -651,8 +655,8 @@ Show
 
 #
 Show
-    ItemLevel = 6
     Class "Maps"
+    BaseType "Academy Map" "Ashen Wood Map" "Atoll Map" "Cemetery Map" "Fields Map" "Jungle Valley Map" "Mausoleum Map" "Phantasmagoria Map" "Thicket Map" "Underground Sea Map" "Wharf Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -660,8 +664,8 @@ Show
 
 #
 Show
-    ItemLevel = 7
     Class "Maps"
+    BaseType "Arachnid Nest Map" "Bazaar Map" "Bone Crypt Map" "Coral Ruins Map" "Dunes Map" "Gardens Map" "Lava Chamber Map" "Ramparts Map" "Residence Map" "Tribunal Map" "Underground River Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -669,8 +673,8 @@ Show
 
 #
 Show
-    ItemLevel = 8
     Class "Maps"
+    BaseType "Armoury Map" "Courtyard Map" "Geode Map" "Infested Valley Map" "Laboratory Map" "Mineral Pools Map" "Mud Geyser Map" "Overgrown Ruin Map" "Shore Map" "Tropical Island Map" "Vaal Pyramid Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -678,8 +682,8 @@ Show
 
 #
 Show
-    ItemLevel = 9
     Class "Maps"
+    BaseType "Arena Map" "Estuary Map" "Moon Temple Map" "Museum Map" "Plateau Map" "Scriptorium Map" "Sepulchre Map" "Temple Map" "Tower Map" "Vault Map" "Waste Pool Map"
     SetTextColor 255 255 119
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -695,12 +699,12 @@ Show
 
 
 Show
-    Rarity = Rare
+    Rarity = Unique
+    PlayAlertSound 4 79
 
 
 Show
-    Rarity = Unique
-    PlayAlertSound 4 79
+    Rarity = Rare
 
 # Section: hiden
 

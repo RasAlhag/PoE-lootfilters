@@ -1,7 +1,7 @@
 ﻿#
 Show
-    ItemLevel = 11
     Class "Maps"
+    BaseType "Colonnade Map" "Coves Map" "Factory Map" "Lair Map" "Mesa Map" "Pit Map" "Primordial Pool Map" "Promenade Map" "Spider Forest Map" "Waterways Map"
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
