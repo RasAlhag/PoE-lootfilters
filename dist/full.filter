@@ -727,7 +727,7 @@ Show
     Class "Maps"
     BaseType "Arachnid Tomb Map" "Belfry Map" "Bog Map" "Cursed Crypt Map" "Orchard Map" "Pier Map" "Precinct Map" "Shipyard Map" "Siege Map" "Wasteland Map"
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 215 0
     PlayAlertSound 2 79
 
 
@@ -826,7 +826,7 @@ Show
     Class "Maps"
     BaseType "Academy Map" "Ashen Wood Map" "Atoll Map" "Cemetery Map" "Fields Map" "Jungle Valley Map" "Mausoleum Map" "Phantasmagoria Map" "Thicket Map" "Underground Sea Map" "Wharf Map"
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 215 0
     PlayAlertSound 2 79
 
 
@@ -835,7 +835,7 @@ Show
     Class "Maps"
     BaseType "Arachnid Nest Map" "Bazaar Map" "Bone Crypt Map" "Coral Ruins Map" "Dunes Map" "Gardens Map" "Lava Chamber Map" "Ramparts Map" "Residence Map" "Tribunal Map" "Underground River Map"
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 215 0
     PlayAlertSound 2 79
 
 
@@ -844,7 +844,7 @@ Show
     Class "Maps"
     BaseType "Armoury Map" "Courtyard Map" "Geode Map" "Infested Valley Map" "Laboratory Map" "Mineral Pools Map" "Mud Geyser Map" "Overgrown Ruin Map" "Shore Map" "Tropical Island Map" "Vaal Pyramid Map"
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 215 0
     PlayAlertSound 2 79
 
 
@@ -853,7 +853,7 @@ Show
     Class "Maps"
     BaseType "Arena Map" "Estuary Map" "Moon Temple Map" "Museum Map" "Plateau Map" "Scriptorium Map" "Sepulchre Map" "Temple Map" "Tower Map" "Vault Map" "Waste Pool Map"
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 215 0
     PlayAlertSound 2 79
 
 
