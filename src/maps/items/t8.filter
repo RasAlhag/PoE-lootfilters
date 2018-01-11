@@ -3,6 +3,6 @@ Show
     Class "Maps"
     BaseType "Armoury Map" "Courtyard Map" "Geode Map" "Infested Valley Map" "Laboratory Map" "Mineral Pools Map" "Mud Geyser Map" "Overgrown Ruin Map" "Shore Map" "Tropical Island Map" "Vaal Pyramid Map"
     SetTextColor 255 255 119
-    SetBorderColor 163 141 109
+    SetBorderColor 255 215 0
     PlayAlertSound 2 79
 

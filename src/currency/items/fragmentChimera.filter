@@ -1,0 +1,8 @@
+﻿#
+Show
+    BaseType "Fragment of the Chimera"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+

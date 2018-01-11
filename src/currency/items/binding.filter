@@ -1,0 +1,8 @@
+﻿#
+Show
+    Class "Currency"
+    BaseType "Orb of Binding"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+

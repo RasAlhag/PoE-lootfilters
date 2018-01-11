@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+    SetTextColor 136 136 255
+    SetBorderColor 175 96 37
+    PlayAlertSound 15 85
+

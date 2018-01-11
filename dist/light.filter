@@ -118,6 +118,42 @@ Show
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
 
+#
+Show
+    Class "Currency"
+    BaseType "Ancient Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 85
+
+
+#
+Show
+    Class "Currency"
+    BaseType "Orb of Annulment"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 85
+
+
+#
+Show
+    Class "Currency"
+    BaseType "Annulment Shard"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 85
+
+
+#
+Show
+    Class "Currency"
+    BaseType "Orb of Binding"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
 
 Show
     Class "Currency"
@@ -125,6 +161,15 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+
+#
+Show
+    BaseType "Blessing of Chayula" "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol"
+    SetTextColor 150 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 220
+    PlayAlertSound 12 79
+
 
 # Section: Card
 
@@ -175,6 +220,15 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 5 80
 
+#
+Show
+    Class "Currency"
+    BaseType "Engineer's Orb"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
 
 Show
     Class "Currency"
@@ -198,6 +252,15 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
 
+#
+Show
+    Class "Currency"
+    BaseType "Exalted Shard"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
 
 Show
     Class "Currency"
@@ -212,6 +275,42 @@ Show
     BaseType "Fragment"
     SetTextColor 208 32 144
     PlayAlertSound 7 79
+
+
+#
+Show
+    BaseType "Fragment of the Chimera"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
+#
+Show
+    BaseType "Fragment of the Hydra"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
+#
+Show
+    BaseType "Fragment of the Minotaur"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
+#
+Show
+    BaseType "Fragment of the Phoenix"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
 
 
 
@@ -230,6 +329,15 @@ Show
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
 
+#
+Show
+    Class "Currency"
+    BaseType "Orb of Horizons"
+    SetTextColor 231 180 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 3 79
+
+
 
 Show
     Class "Currency"
@@ -237,6 +345,13 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+
+#
+Show
+    Class "Labyrinth Item" "Labyrinth Map Item" "Labyrinth Trinket"
+    SetTextColor 255 215 0
+    SetBorderColor 255 255 255
+
 
 
 Show
@@ -246,6 +361,15 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
 
+#
+Show
+    Class "Currency"
+    BaseType "Mirror Shard"
+    SetTextColor 231 180 120
+    SetBorderColor 210 0 220
+    PlayAlertSound 5 85
+
+
 
 Show
     Class "Currency"
@@ -254,11 +378,55 @@ Show
     PlayAlertSound 7 79
 
 
+#
+Show
+    BaseType "Mortal Grief"
+    SetTextColor 0 128 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
+#
+Show
+    BaseType "Mortal Hope"
+    SetTextColor 0 128 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
+#
+Show
+    BaseType "Mortal Ignorance"
+    SetTextColor 0 128 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
+#
+Show
+    BaseType "Mortal Rage"
+    SetTextColor 0 128 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 0
+    PlayAlertSound 15 79
+
+
 
 Show
     BaseType "Offering to the Goddess"
     SetTextColor 50 230 100
     SetBorderColor 50 230 100
+
+
+#
+Show
+    BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+    SetTextColor 136 136 255
+    SetBorderColor 175 96 37
+    PlayAlertSound 15 85
 
 
 

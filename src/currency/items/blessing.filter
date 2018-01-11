@@ -1,0 +1,8 @@
+﻿#
+Show
+    BaseType "Blessing of Chayula" "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol"
+    SetTextColor 150 0 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 220
+    PlayAlertSound 12 79
+
