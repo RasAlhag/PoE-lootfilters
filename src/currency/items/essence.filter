@@ -1,6 +1,6 @@
-
+﻿#
 Show
-    Class "Currency"
     BaseType "Essence"
     SetTextColor 184 218 242
     SetBorderColor 184 218 242
+

@@ -229,12 +229,12 @@ Show
     PlayAlertSound 3 79
 
 
-
+#
 Show
-    Class "Currency"
     BaseType "Essence"
     SetTextColor 184 218 242
     SetBorderColor 184 218 242
+
 
 
 Show
@@ -451,6 +451,13 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+
+#
+Show
+    BaseType "Remnant of Corruption"
+    SetTextColor 150 0 0
+    SetBorderColor 184 218 242
+
 
 
 Show
