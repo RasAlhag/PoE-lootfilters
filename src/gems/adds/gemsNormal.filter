@@ -1,7 +1,5 @@
 ﻿#
 Show
-    ItemLevel >= 2
     Class "Active Skill Gems" "Support Skill Gems"
     SetTextColor 27 162 155
-    SetBorderColor 0 128 0
 

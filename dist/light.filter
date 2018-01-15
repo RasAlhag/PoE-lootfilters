@@ -82,24 +82,30 @@ Show
 
 
 Show
-    Quality >= 1
-    Class "Gem"
-    SetTextColor 27 162 155
-    SetBorderColor 255 200 0
-
-
-Show
     Corrupted True
     Class "Gem"
     SetTextColor 27 162 155
     SetBorderColor 255 40 0 220
 
-#
+
 Show
-    ItemLevel > 2
+    Quality >= 1
     Class "Gem"
     SetTextColor 27 162 155
+    SetBorderColor 255 200 0
+
+#
+Show
+    ItemLevel >= 2
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 27 162 155
     SetBorderColor 0 128 0
+
+
+#
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    SetTextColor 27 162 155
 
 
 
