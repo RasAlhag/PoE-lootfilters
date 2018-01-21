@@ -1,0 +1,7 @@
+﻿#
+Show
+    Quality >= 20
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    SetTextColor 255 255 119
+    SetBorderColor 27 162 155
+
