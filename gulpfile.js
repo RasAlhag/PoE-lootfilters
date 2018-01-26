@@ -11,6 +11,7 @@ var distPath        =   "./dist";
 var srcPath         =   "./src";
 var base            =    srcPath+"/base";
 var currency        =    srcPath+"/currency";
+var flasks          =    srcPath+"/flasks";
 var maps            =    srcPath+"/maps";
 var amulets         =    srcPath+"/amulets";
 var rings           =    srcPath+"/rings";
@@ -47,6 +48,10 @@ gulp.task('full', function () {
 		currency+items+all,
 		currency+items+"/var"+all,
 		currency+adds+all,
+		flasks+addsImportant+all,
+		flasks+items+all,
+		flasks+items+"/var"+all,
+		flasks+adds+all,
 		belts+addsImportant+all,
 		belts+items+all,
 		belts+items+"/var"+all,
@@ -109,6 +114,10 @@ gulp.task('light', function () {
 		currency+items+all,
 		//currency+items+"/var"+all,
 		currency+adds+all,
+		flasks+addsImportant+all,
+		flasks+items+all,
+		//flasks+items+"/var"+all,
+		flasks+adds+all,
 		belts+addsImportant+all,
 		belts+items+all,
 		//belts+items+"/var"+all,

@@ -3,3 +3,4 @@
 /.phpstorm.meta.php
 /npm-debug.log
 /node_modules
+/test

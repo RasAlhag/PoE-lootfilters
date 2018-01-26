@@ -524,6 +524,14 @@ Show
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
 
+#
+Show
+    BaseType "Divine Vessel"
+    SetTextColor 180 96 0
+    SetBorderColor 255 255 255
+    PlayAlertSoundPositional 4 79
+
+
 
 Show
     Class "Belts"
