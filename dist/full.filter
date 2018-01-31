@@ -618,32 +618,36 @@ Show
 Show
     Class "Hybrid Flasks"
     SetTextColor 74 0 160 200
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 
 
 #
 Show
     Class "Life Flasks"
     SetTextColor 210 0 0
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 
 
 #
 Show
     Class "Mana Flasks"
     SetTextColor 136 136 255
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 
 
 #
 Show
     Class "Utility Flasks"
     SetTextColor 50 230 100
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 
 
 

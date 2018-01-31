@@ -2,6 +2,7 @@
 Show
     Class "Hybrid Flasks"
     SetTextColor 74 0 160 200
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 

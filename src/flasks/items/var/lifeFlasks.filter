@@ -2,6 +2,7 @@
 Show
     Class "Life Flasks"
     SetTextColor 210 0 0
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 

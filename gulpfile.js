@@ -48,10 +48,6 @@ gulp.task('full', function () {
 		currency+items+all,
 		currency+items+"/var"+all,
 		currency+adds+all,
-		flasks+addsImportant+all,
-		flasks+items+all,
-		flasks+items+"/var"+all,
-		flasks+adds+all,
 		belts+addsImportant+all,
 		belts+items+all,
 		belts+items+"/var"+all,
@@ -90,6 +86,10 @@ gulp.task('full', function () {
 		maps+adds+all,
 		srcPath+adds+all,
 		srcPath+adds+"/var"+all,
+		flasks+addsImportant+all,
+		flasks+items+all,
+		flasks+items+"/var"+all,
+		flasks+adds+all,
 		srcPath+"/hidden"+fileExtension
 	])
 	.pipe(concat('full.filter'))
@@ -114,10 +114,6 @@ gulp.task('light', function () {
 		currency+items+all,
 		//currency+items+"/var"+all,
 		currency+adds+all,
-		flasks+addsImportant+all,
-		flasks+items+all,
-		//flasks+items+"/var"+all,
-		flasks+adds+all,
 		belts+addsImportant+all,
 		belts+items+all,
 		//belts+items+"/var"+all,
@@ -156,6 +152,10 @@ gulp.task('light', function () {
 		maps+adds+all,
 		srcPath+adds+all,
 		//srcPath+adds+"/var"+all,
+		flasks+addsImportant+all,
+		flasks+items+all,
+		//flasks+items+"/var"+all,
+		flasks+adds+all,
 		srcPath+"/hidden"+fileExtension
 	])
 		.pipe(concat('light.filter'))

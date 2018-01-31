@@ -2,6 +2,7 @@
 Show
     Class "Mana Flasks"
     SetTextColor 136 136 255
-    SetBackgroundColor 128 128 128
+    SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
+    SetFontSize 25
 
