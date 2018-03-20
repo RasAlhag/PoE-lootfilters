@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Thaumaturgical Net"
+    SetTextColor 120 212 231
+    SetBorderColor 210 0 220
+    PlayAlertSound 3 79
+

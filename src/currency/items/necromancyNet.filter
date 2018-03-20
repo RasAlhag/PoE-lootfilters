@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Necromancy Net"
+    SetTextColor 120 212 231
+    SetBorderColor 50 230 100
+    PlayAlertSound 3 79
+

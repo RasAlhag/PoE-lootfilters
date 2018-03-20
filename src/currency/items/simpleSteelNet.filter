@@ -1,0 +1,6 @@
+﻿#
+Show
+    BaseType "Simple Steel Net"
+    SetTextColor 120 212 231
+    SetBorderColor 255 255 255
+

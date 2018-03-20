@@ -1,0 +1,6 @@
+﻿#
+Show
+    BaseType "Bestiary Orb"
+    SetTextColor 171 231 120
+    PlayAlertSound 9 79
+

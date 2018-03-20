@@ -190,6 +190,13 @@ Show
 
 #
 Show
+    BaseType "Bestiary Orb"
+    SetTextColor 171 231 120
+    PlayAlertSound 9 79
+
+
+#
+Show
     Class "Currency"
     BaseType "Orb of Binding"
     SetTextColor 231 180 120
@@ -381,6 +388,14 @@ Show
     PlayAlertSound 3 79
 
 
+#
+Show
+    BaseType "Imprinted Bestiary Orb"
+    SetTextColor 171 231 120
+    SetBorderColor 231 180 120
+    PlayAlertSound 9 79
+
+
 
 Show
     Class "Currency"
@@ -457,6 +472,14 @@ Show
     PlayAlertSound 15 79
 
 
+#
+Show
+    BaseType "Necromancy Net"
+    SetTextColor 120 212 231
+    SetBorderColor 50 230 100
+    PlayAlertSound 3 79
+
+
 
 Show
     BaseType "Offering to the Goddess"
@@ -494,6 +517,27 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+
+#
+Show
+    BaseType "Reinforced Iron Net"
+    SetTextColor 120 212 231
+    SetBorderColor 231 180 120
+
+
+#
+Show
+    BaseType "Reinforced Rope Net"
+    SetTextColor 120 212 231
+    SetBorderColor 231 180 120
+
+
+#
+Show
+    BaseType "Reinforced Steel Net"
+    SetTextColor 120 212 231
+    SetBorderColor 231 180 120
+
 
 #
 Show
@@ -553,6 +597,56 @@ Show
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
 
+#
+Show
+    BaseType "Simple Iron Net"
+    SetTextColor 120 212 231
+    SetBorderColor 255 255 255
+
+
+#
+Show
+    BaseType "Simple Rope Net"
+    SetTextColor 120 212 231
+    SetBorderColor 255 255 255
+
+
+#
+Show
+    BaseType "Simple Steel Net"
+    SetTextColor 120 212 231
+    SetBorderColor 255 255 255
+
+
+#
+Show
+    BaseType "Strong Iron Net"
+    SetTextColor 120 212 231
+    SetBorderColor 210 0 0
+
+
+#
+Show
+    BaseType "Strong Rope Net"
+    SetTextColor 120 212 231
+    SetBorderColor 210 0 0
+
+
+#
+Show
+    BaseType "Strong Steel Net"
+    SetTextColor 120 212 231
+    SetBorderColor 210 0 0
+
+
+#
+Show
+    BaseType "Thaumaturgical Net"
+    SetTextColor 120 212 231
+    SetBorderColor 210 0 220
+    PlayAlertSound 3 79
+
+
 
 Show
     Class "Currency"
@@ -606,50 +700,6 @@ Show
     Class "Currency"
     BaseType "Scroll of Wisdom"
     SetTextColor 170 158 130
-#
-Show
-    BaseType "Divine Vessel"
-    SetTextColor 180 96 0
-    SetBorderColor 255 255 255
-    PlayAlertSoundPositional 4 79
-
-
-#
-Show
-    Class "Hybrid Flasks"
-    SetTextColor 74 0 160 200
-    SetBackgroundColor 255 255 255 0
-    SetBorderColor 0 0 0 0
-    SetFontSize 25
-
-
-#
-Show
-    Class "Life Flasks"
-    SetTextColor 210 0 0
-    SetBackgroundColor 255 255 255 0
-    SetBorderColor 0 0 0 0
-    SetFontSize 25
-
-
-#
-Show
-    Class "Mana Flasks"
-    SetTextColor 136 136 255
-    SetBackgroundColor 255 255 255 0
-    SetBorderColor 0 0 0 0
-    SetFontSize 25
-
-
-#
-Show
-    Class "Utility Flasks"
-    SetTextColor 50 230 100
-    SetBackgroundColor 255 255 255 0
-    SetBorderColor 0 0 0 0
-    SetFontSize 25
-
-
 
 Show
     Class "Belts"
@@ -938,6 +988,50 @@ Show
 
 Show
     Rarity = Rare
+
+#
+Show
+    BaseType "Divine Vessel"
+    SetTextColor 180 96 0
+    SetBorderColor 255 255 255
+    PlayAlertSoundPositional 4 79
+
+
+#
+Show
+    Class "Hybrid Flasks"
+    SetTextColor 74 0 160 200
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 0 0 0 0
+    SetFontSize 25
+
+
+#
+Show
+    Class "Life Flasks"
+    SetTextColor 210 0 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 0 0 0 0
+    SetFontSize 25
+
+
+#
+Show
+    Class "Mana Flasks"
+    SetTextColor 136 136 255
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 0 0 0 0
+    SetFontSize 25
+
+
+#
+Show
+    Class "Utility Flasks"
+    SetTextColor 50 230 100
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 0 0 0 0
+    SetFontSize 25
+
 
 # Section: hiden
 
