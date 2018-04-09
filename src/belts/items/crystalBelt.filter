@@ -1,0 +1,7 @@
+﻿#
+Show
+    Class "Belts"
+    BaseType "Crystal Belt"
+    SetTextColor 255 255 255
+    SetBackgroundColor 119 194 214
+
