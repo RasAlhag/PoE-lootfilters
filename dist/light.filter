@@ -1,6 +1,14 @@
 # Created by RasAlhag
 
 
+#
+Show
+    LinkedSockets = 6
+    SetTextColor 210 0 220
+    SetBorderColor 175 96 37
+    PlayAlertSound 10 80
+
+
 
 Show
     Class "Jewel"
@@ -26,14 +34,13 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 4 79
 
-#
+
 Show
-    LinkedSockets = 6
-    SetTextColor 210 0 220
-    SetBorderColor 175 96 37
-    PlayAlertSound 10 80
-
-
+    Sockets = 6
+    SetTextColor 255 192 203
+    SetBorderColor 208 32 144
+    PlayAlertSound 9 79
+    
 # Section: Legacy-Breachstone
 
 Show
@@ -65,13 +72,6 @@ Show
     PlayAlertSound 7 79
 
 
-
-Show
-    Sockets = 6
-    SetTextColor 255 192 203
-    SetBorderColor 208 32 144
-    PlayAlertSound 9 79
-    
 
 Show
     Class "Support Skill Gems"
