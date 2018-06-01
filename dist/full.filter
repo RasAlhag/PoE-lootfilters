@@ -655,6 +655,14 @@ Show
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
 
+#
+Show
+    BaseType "Vial"
+    SetTextColor 225 96 255
+    SetBorderColor 255 255 255
+    PlayAlertSound 16 85
+
+
 
 Show
     Class "Currency"
