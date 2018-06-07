@@ -78,6 +78,14 @@ Show
     SetBorderColor 30 144 255
     PlayAlertSound 4 79
 
+#
+Show
+    BaseType "Flashpowder Keg"
+    SetTextColor 50 230 100
+    SetBorderColor 127 127 127
+    PlayAlertSound 15 85
+
+
 # Section: Legacy-Breachstone
 
 Show
@@ -107,6 +115,14 @@ Show
     SetTextColor 200 200 200
     SetBorderColor 210 0 220
     PlayAlertSound 7 79
+
+
+#
+Show
+    BaseType "Stone of Passage"
+    SetTextColor 50 230 100
+    SetBorderColor 200 200 200
+    PlayAlertSound 15 85
 
 
 

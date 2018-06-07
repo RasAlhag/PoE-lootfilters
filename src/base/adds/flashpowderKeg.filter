@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Flashpowder Keg"
+    SetTextColor 50 230 100
+    SetBorderColor 127 127 127
+    PlayAlertSound 15 85
+

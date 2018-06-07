@@ -1,0 +1,7 @@
+﻿#
+Show
+    BaseType "Stone of Passage"
+    SetTextColor 50 230 100
+    SetBorderColor 200 200 200
+    PlayAlertSound 15 85
+
