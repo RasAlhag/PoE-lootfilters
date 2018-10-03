@@ -1,7 +1,7 @@
 ﻿#
 Show
     Class "Maps"
-    BaseType "Arachnid Tomb Map" "Belfry Map" "Bog Map" "Cursed Crypt Map" "Orchard Map" "Pier Map" "Precinct Map" "Shipyard Map" "Siege Map" "Wasteland Map"
+    MapTier = 10
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79

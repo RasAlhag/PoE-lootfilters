@@ -1,0 +1,9 @@
+﻿#
+Show
+    BaseType "Timeworn Reliquary Key"
+    SetTextColor 180 96 0
+    SetBorderColor 255 200 0
+    PlayAlertSound 1 79
+    MinimapIcon 2 Brown Triangle
+    PlayEffect Brown
+

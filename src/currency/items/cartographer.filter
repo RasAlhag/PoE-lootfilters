@@ -5,3 +5,5 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue

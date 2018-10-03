@@ -1,7 +1,7 @@
 ﻿#
 Show
     Class "Maps"
-    BaseType "Academy Map" "Ashen Wood Map" "Atoll Map" "Cemetery Map" "Fields Map" "Jungle Valley Map" "Mausoleum Map" "Phantasmagoria Map" "Thicket Map" "Underground Sea Map" "Wharf Map"
+    MapTier = 6
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79

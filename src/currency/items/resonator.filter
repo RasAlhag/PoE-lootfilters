@@ -1,0 +1,8 @@
+﻿#
+Show
+    Class "Currency"
+    BaseType "Resonator"
+    SetTextColor 210 0 220
+    SetBackgroundColor 184 242 224
+    PlayAlertSound 9 79
+

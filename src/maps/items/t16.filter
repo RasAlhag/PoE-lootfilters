@@ -1,7 +1,7 @@
 ﻿#
 Show
     Class "Maps"
-    BaseType "Forge of the Phoenix Map" "Lair of the Hydra Map" "Maze of the Minotaur Map" "Pit of the Chimera Map" "Vaal Temple Map"
+    MapTier = 16
     SetTextColor 0 128 0
     SetBorderColor 175 96 37
     PlayAlertSound 2 79

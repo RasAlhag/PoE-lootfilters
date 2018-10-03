@@ -1,7 +1,7 @@
 ﻿#
 Show
     Class "Maps"
-    BaseType "Arachnid Nest Map" "Bazaar Map" "Bone Crypt Map" "Coral Ruins Map" "Dunes Map" "Gardens Map" "Lava Chamber Map" "Ramparts Map" "Residence Map" "Tribunal Map" "Underground River Map"
+    MapTier = 7
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79

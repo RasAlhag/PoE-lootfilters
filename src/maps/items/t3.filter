@@ -1,7 +1,7 @@
 ﻿#
 Show
     Class "Maps"
-    BaseType "Arcade Map" "Burial Chambers Map" "Cage Map" "Cells Map" "Excavation Map" "Iceberg Map" "Leyline Map" "Peninsula Map" "Port Map" "Springs Map"
+    MapTier = 3
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79

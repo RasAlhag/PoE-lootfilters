@@ -176,6 +176,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
 
 #
 Show
@@ -227,6 +229,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
 
 #
 Show
@@ -244,6 +248,9 @@ Show
     SetTextColor 30 144 255
     SetBorderColor 30 144 255
     PlayAlertSound 8 79
+    MinimapIcon 0 Blue Square
+    PlayEffect Blue
+
 
 
 
@@ -253,6 +260,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
 
 
 Show
@@ -261,6 +270,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 White Circle
+    PlayEffect White
 
 
 Show
@@ -269,6 +280,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
 
 
 Show
@@ -285,6 +298,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 80
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
 
 #
 Show
@@ -293,6 +308,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
 
 
 #
@@ -309,6 +326,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
+    MinimapIcon 2 Brown Star
+    PlayEffect Brown
 
 
 Show
@@ -317,6 +336,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
+    MinimapIcon 2 Brown Star
+    PlayEffect Brown
 
 #
 Show
@@ -325,6 +346,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
+    MinimapIcon 2 Brown Star
+    PlayEffect Brown
 
 
 
@@ -334,6 +357,15 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
+
+#
+Show
+    Class "Currency"
+    BaseType "Fossil"
+    SetTextColor 255 116 0
+    SetBackgroundColor 184 242 213
+    PlayAlertSound 9 79
+
 
 
 Show
@@ -386,6 +418,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
 
 
 Show
@@ -394,6 +428,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
 
 #
 Show
@@ -419,6 +455,9 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
+
 
 #
 Show
@@ -434,6 +473,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
+    MinimapIcon 2 Brown Diamond
+    PlayEffect Brown
 
 #
 Show
@@ -442,6 +483,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
+    MinimapIcon 2 Brown Diamond
+    PlayEffect Brown
 
 
 
@@ -525,6 +568,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
 
 
 Show
@@ -533,6 +578,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
 
 #
 Show
@@ -562,6 +609,15 @@ Show
     SetBorderColor 184 218 242
 
 
+#
+Show
+    Class "Currency"
+    BaseType "Resonator"
+    SetTextColor 210 0 220
+    SetBackgroundColor 184 242 224
+    PlayAlertSound 9 79
+
+
 
 Show
     BaseType "Sacrifice at Dawn" "Sacrifice at Noon" "Sacrifice at Dusk"
@@ -581,6 +637,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
 
 
 Show
@@ -589,6 +647,8 @@ Show
     SetTextColor 255 255 255
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
+    MinimapIcon 0 White Diamond
+    PlayEffect White
 
 Show
     Class "Currency"
@@ -596,6 +656,8 @@ Show
     SetTextColor 255 200 0
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Yellow Diamond
+    PlayEffect Yellow
 
 Show
     Class "Currency"
@@ -603,6 +665,8 @@ Show
     SetTextColor 255 0 0
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
+    MinimapIcon 0 Red Diamond
+    PlayEffect Red
 
 
 
@@ -670,6 +734,8 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
 
 #
 Show
@@ -863,7 +929,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Beach Map" "Dungeon Map" "Graveyard Map" "Lookout Map"
+    MapTier = 1
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -872,7 +938,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Arachnid Tomb Map" "Belfry Map" "Bog Map" "Cursed Crypt Map" "Orchard Map" "Pier Map" "Precinct Map" "Shipyard Map" "Siege Map" "Wasteland Map"
+    MapTier = 10
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
@@ -881,7 +947,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Colonnade Map" "Coves Map" "Factory Map" "Lair Map" "Mesa Map" "Pit Map" "Primordial Pool Map" "Promenade Map" "Spider Forest Map" "Waterways Map"
+    MapTier = 11
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -890,7 +956,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Castle Ruins Map" "Crystal Ore Map" "Defiled Cathedral Map" "Necropolis Map" "Overgrown Shrine Map" "Racecourse Map" "Summit Map" "Torture Chamber Map" "Villa Map"
+    MapTier = 12
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -899,7 +965,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Arsenal Map" "Caldera Map" "Core Map" "Desert Spring Map" "Ghetto Map" "Malformation Map" "Park Map" "Shrine Map" "Terrace Map"
+    MapTier = 13
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -908,7 +974,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Acid Lakes Map" "Colosseum Map" "Crimson Temple Map" "Dark Forest Map" "Dig Map" "Palace Map" "Plaza Map"
+    MapTier = 14
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -917,7 +983,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Basilica Map" "Carcass Map" "Lava Lake Map" "Reef Map" "Sunken City Map"
+    MapTier = 15
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -926,7 +992,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Forge of the Phoenix Map" "Lair of the Hydra Map" "Maze of the Minotaur Map" "Pit of the Chimera Map" "Vaal Temple Map"
+    MapTier = 16
     SetTextColor 0 128 0
     SetBorderColor 175 96 37
     PlayAlertSound 2 79
@@ -935,7 +1001,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Alleyways Map" "Arid Lake Map" "Desert Map" "Flooded Mine Map" "Marshes Map" "Pen Map"
+    MapTier = 2
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -944,7 +1010,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Arcade Map" "Burial Chambers Map" "Cage Map" "Cells Map" "Excavation Map" "Iceberg Map" "Leyline Map" "Peninsula Map" "Port Map" "Springs Map"
+    MapTier = 3
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -953,7 +1019,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Canyon Map" "Chateau Map" "City Square Map" "Courthouse Map" "Gorge Map" "Grotto Map" "Lighthouse Map" "Relic Chambers Map" "Strand Map" "Volcano Map"
+    MapTier = 4
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -962,7 +1028,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Ancient City Map" "Barrows Map" "Channel Map" "Conservatory Map" "Haunted Mansion Map" "Ivory Temple Map" "Maze Map" "Spider Lair Map" "Sulphur Vents Map" "Toxic Sewer Map"
+    MapTier = 5
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
@@ -971,7 +1037,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Academy Map" "Ashen Wood Map" "Atoll Map" "Cemetery Map" "Fields Map" "Jungle Valley Map" "Mausoleum Map" "Phantasmagoria Map" "Thicket Map" "Underground Sea Map" "Wharf Map"
+    MapTier = 6
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
@@ -980,7 +1046,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Arachnid Nest Map" "Bazaar Map" "Bone Crypt Map" "Coral Ruins Map" "Dunes Map" "Gardens Map" "Lava Chamber Map" "Ramparts Map" "Residence Map" "Tribunal Map" "Underground River Map"
+    MapTier = 7
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
@@ -989,7 +1055,7 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Armoury Map" "Courtyard Map" "Geode Map" "Infested Valley Map" "Laboratory Map" "Mineral Pools Map" "Mud Geyser Map" "Overgrown Ruin Map" "Shore Map" "Tropical Island Map" "Vaal Pyramid Map"
+    MapTier = 8
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
@@ -998,10 +1064,20 @@ Show
 #
 Show
     Class "Maps"
-    BaseType "Arena Map" "Estuary Map" "Moon Temple Map" "Museum Map" "Plateau Map" "Scriptorium Map" "Sepulchre Map" "Temple Map" "Tower Map" "Vault Map" "Waste Pool Map"
+    MapTier = 9
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
+
+
+#
+Show
+    BaseType "Timeworn Reliquary Key"
+    SetTextColor 180 96 0
+    SetBorderColor 255 200 0
+    PlayAlertSound 1 79
+    MinimapIcon 2 Brown Triangle
+    PlayEffect Brown
 
 
 

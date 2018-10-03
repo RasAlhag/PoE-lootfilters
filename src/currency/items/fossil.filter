@@ -1,0 +1,8 @@
+﻿#
+Show
+    Class "Currency"
+    BaseType "Fossil"
+    SetTextColor 255 116 0
+    SetBackgroundColor 184 242 213
+    PlayAlertSound 9 79
+

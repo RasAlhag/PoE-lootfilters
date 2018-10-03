@@ -1,7 +1,7 @@
 ﻿#
 Show
     Class "Maps"
-    BaseType "Alleyways Map" "Arid Lake Map" "Desert Map" "Flooded Mine Map" "Marshes Map" "Pen Map"
+    MapTier = 2
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
