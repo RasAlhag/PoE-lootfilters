@@ -7,6 +7,8 @@ Show
     SetTextColor 210 0 220
     SetBorderColor 175 96 37
     PlayAlertSound 10 80
+    MinimapIcon 0 Brown Hexagon
+    PlayEffect Brown
 
 
 
@@ -40,6 +42,8 @@ Show
     SetTextColor 255 192 203
     SetBorderColor 208 32 144
     PlayAlertSound 9 79
+    MinimapIcon 0 Red Hexagon
+    PlayEffect Red
     
 #
 Show
@@ -803,6 +807,8 @@ Show
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 White Square
+    PlayEffect White
 
 
 #
@@ -812,6 +818,8 @@ Show
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 
 #
@@ -821,6 +829,8 @@ Show
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 Red Square
+    PlayEffect Red
 
 
 #
@@ -830,6 +840,8 @@ Show
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 Red Square
+    PlayEffect Red
 
 
 #
@@ -839,6 +851,8 @@ Show
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 Red Square
+    PlayEffect Red
 
 
 #
@@ -848,6 +862,8 @@ Show
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 Red Square
+    PlayEffect Red
 
 
 #
@@ -857,6 +873,8 @@ Show
     SetTextColor 255 0 0
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 Red Square
+    PlayEffect Red
 
 
 #
@@ -866,6 +884,8 @@ Show
     SetTextColor 0 128 0
     SetBorderColor 175 96 37
     PlayAlertSound 2 79
+    MinimapIcon 0 Green Square
+    PlayEffect Green
 
 
 #
@@ -875,6 +895,8 @@ Show
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 White Square
+    PlayEffect White
 
 
 #
@@ -884,6 +906,8 @@ Show
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 White Square
+    PlayEffect White
 
 
 #
@@ -893,6 +917,8 @@ Show
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 White Square
+    PlayEffect White
 
 
 #
@@ -902,6 +928,8 @@ Show
     SetTextColor 255 255 255
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
+    MinimapIcon 0 White Square
+    PlayEffect White
 
 
 #
@@ -911,6 +939,8 @@ Show
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 
 #
@@ -920,6 +950,8 @@ Show
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 
 #
@@ -929,6 +961,8 @@ Show
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 
 #
@@ -938,6 +972,8 @@ Show
     SetTextColor 255 255 119
     SetBorderColor 255 215 0
     PlayAlertSound 2 79
+    MinimapIcon 0 Yellow Square
+    PlayEffect Yellow
 
 
 #

@@ -4,4 +4,6 @@ Show
     SetTextColor 255 192 203
     SetBorderColor 208 32 144
     PlayAlertSound 9 79
+    MinimapIcon 0 Red Hexagon
+    PlayEffect Red
     
