@@ -1,0 +1,8 @@
+﻿#
+Show
+    Class "Prophecy"
+    SetTextColor 255 157 190 200
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 220
+    PlayAlertSound 12 79
+

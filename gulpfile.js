@@ -163,6 +163,4 @@ gulp.task('light', function () {
 });
 
 
-gulp.task('build', ['full', 'light']);
-
 

@@ -4,7 +4,7 @@
   "description": "filter for game Path of Exile",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp full && gulp light"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,12 @@
   "author": "RasAlhag",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cli": "^1.4.0",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-order": "^1.1.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
+    "gulp-order": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
     "path": "^0.12.7"
   }
 }

@@ -220,7 +220,6 @@ Show
 
 
 
-
 Show
     Class "Currency"
     BaseType "Cartographer's Chisel"
@@ -317,7 +316,7 @@ Show
     PlayEffect Brown
 
 
-
+#
 Show
     Class "Currency"
     BaseType "Fishing Rod"
@@ -791,6 +790,14 @@ Show
     PlayAlertSound 6 79
 
     
+#
+Show
+    Class "Map Fragment"
+    SetTextColor 252 184 255
+    SetBackgroundColor 94 66 33
+    PlayAlertSound 7 79
+
+
 #
 Show
     ShapedMap True

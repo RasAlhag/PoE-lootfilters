@@ -1,0 +1,7 @@
+﻿#
+Show
+    Class "Map Fragment"
+    SetTextColor 252 184 255
+    SetBackgroundColor 94 66 33
+    PlayAlertSound 7 79
+
