@@ -4,6 +4,7 @@ Show
     BaseType "Exalted Orb"
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
-    PlayAlertSound 5 85
-    MinimapIcon 2 Brown Star
+    SetFontSize 50
+    PlayAlertSound 5 115
+    MinimapIcon 0 Brown Star
     PlayEffect Brown

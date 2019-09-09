@@ -1,0 +1,8 @@
+#
+Show
+    ShaperItem True
+    Rarity = Rare
+    Class "Amulets"
+    SetTextColor 255 200 0
+    SetBorderColor 153 79 240 200
+    PlayAlertSound 16 95

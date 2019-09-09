@@ -33,6 +33,7 @@ var all             =     "/*"+fileExtension;
 gulp.task('full', function () {
 	return gulp.src([
 		srcPath+"/head"+fileExtension,
+		srcPath+addsImportant+all,
 		base+addsImportant+all,
 		base+items+all,
 		base+items+"/var"+all,
@@ -99,6 +100,7 @@ gulp.task('full', function () {
 gulp.task('light', function () {
 	return gulp.src([
 		srcPath+"/head"+fileExtension,
+		srcPath+addsImportant+all,
 		base+addsImportant+all,
 		base+items+all,
 		//base+items+"/var"+all,
@@ -161,6 +163,8 @@ gulp.task('light', function () {
 		.pipe(concat('light.filter'))
 		.pipe(gulp.dest(distPath));
 });
+
+gulp.task('build',gulp.parallel('full', 'light'));
 
 
 

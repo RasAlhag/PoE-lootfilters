@@ -1,0 +1,9 @@
+#
+Show
+    ShaperItem True
+    Class "Gloves"
+    SetTextColor 255 255 119
+    SetBorderColor 208 32 144
+    SetFontSize 40
+    PlayAlertSound 16 105
+

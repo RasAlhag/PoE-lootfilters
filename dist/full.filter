@@ -36,6 +36,17 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 4 79
 
+#
+Show
+    Class "Quest"
+    BaseType "Shaper's Orb" "Elder's Orb"
+    SetBorderColor 76 3 161
+    SetFontSize 45
+    PlayAlertSound 2 80
+    MinimapIcon 1 Green Hexagon
+    PlayEffect Green
+
+
 
 Show
     Sockets = 6
@@ -165,14 +176,12 @@ Show
     SetTextColor 27 162 155
 
 
-
 Show
     Class "Currency"
     BaseType "Albino Rhoa Feather"
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
     PlayAlertSound 5 85
-
 
 Show
     Class "Currency"
@@ -338,8 +347,9 @@ Show
     BaseType "Exalted Orb"
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
-    PlayAlertSound 5 85
-    MinimapIcon 2 Brown Star
+    SetFontSize 50
+    PlayAlertSound 5 115
+    MinimapIcon 0 Brown Star
     PlayEffect Brown
 
 #
@@ -469,6 +479,42 @@ Show
     SetBorderColor 255 255 255
 
 
+#
+Show
+    Class "Currency"
+    BaseType "Timeless Karui Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+
+Show
+    Class "Currency"
+    BaseType "Timeless Maraketh Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 255 255 255
+
+Show
+    Class "Currency"
+    BaseType "Timeless Eternal Empire Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 0 0 255
+
+Show
+    Class "Currency"
+    BaseType "Timeless Templar Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 231 180 120
+
+Show
+    Class "Currency"
+    BaseType "Timeless Vaal Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 210 0 0
+
+
 
 Show
     Class "Currency"
@@ -549,6 +595,14 @@ Show
     SetBorderColor 50 230 100
 
 
+Show
+    Class "Currency"
+    BaseType "Oil"
+    SetTextColor 255 255 255
+    SetBackgroundColor 104 60 8
+    SetBorderColor 255 255 255 0
+    PlayAlertSound 10 85
+
 #
 Show
     BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
@@ -563,6 +617,16 @@ Show
     BaseType "Perandus Coin"
     SetTextColor 170 158 130
     SetBorderColor 136 136 255
+
+#
+Show
+    Class Currency
+    BaseType "Prophecy"
+    SetTextColor 255 157 190 200
+    SetBackgroundColor 0 0 0
+    SetBorderColor 210 0 220
+    PlayAlertSound 12 79
+
 
 
 Show
@@ -748,7 +812,6 @@ Show
     PlayAlertSound 16 85
 
 
-
 Show
     Class "Currency"
     BaseType "Orb of Alteration"
@@ -807,6 +870,24 @@ Show
     SetBackgroundColor 119 194 214
 
 
+#
+Show
+    ElderItem True
+    Rarity = Rare
+    Class "Amulets"
+    SetTextColor 255 200 0
+    SetBorderColor 153 79 240 200
+    PlayAlertSound 16 95
+
+
+#
+Show
+    ShaperItem True
+    Rarity = Rare
+    Class "Amulets"
+    SetTextColor 255 200 0
+    SetBorderColor 153 79 240 200
+    PlayAlertSound 16 95
 
 Show
     Class "Amulets"
@@ -820,6 +901,21 @@ Show
     SetTextColor 184 218 242
     SetBackgroundColor 0 0 0
 
+
+#
+Show
+    ElderItem True
+    Class "Rings"
+    SetTextColor 255 200 0
+    SetBorderColor 153 79 240 200
+    PlayAlertSound 16 95
+#
+Show
+    ShaperItem True
+    Class "Rings"
+    SetTextColor 255 200 0
+    SetBorderColor 153 79 240 200
+    PlayAlertSound 16 95
 
 #
 Show
@@ -879,6 +975,26 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 0 128 0
 
+#
+Show
+    ElderItem True
+    Class "Gloves"
+    SetTextColor 255 255 119
+    SetBorderColor 208 32 144
+    SetFontSize 40
+    PlayAlertSound 16 105
+
+
+#
+Show
+    ShaperItem True
+    Class "Gloves"
+    SetTextColor 255 255 119
+    SetBorderColor 208 32 144
+    SetFontSize 40
+    PlayAlertSound 16 105
+
+
 
 Show
     Class "Gloves"
@@ -886,6 +1002,17 @@ Show
     SetTextColor 255 255 119
     SetBackgroundColor 0 0 0
     SetBorderColor 0 128 0
+
+#
+Show
+    Rarity <= Rare
+    Class "Helmets"
+    BaseType "Bone Helmet"
+    SetTextColor 184 218 242
+    SetBorderColor 255 255 119
+    SetFontSize 35
+    PlayAlertSound 15 95
+
 
 
 Show
@@ -909,6 +1036,15 @@ Show
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
     SetTextColor 255 255 119
     SetBorderColor 27 162 155
+
+
+#
+Show
+    Height = 3
+    Width = 1
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBorderColor 120 41 41
 
 
 #

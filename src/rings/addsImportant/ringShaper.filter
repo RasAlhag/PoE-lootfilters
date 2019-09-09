@@ -1,0 +1,7 @@
+#
+Show
+    ShaperItem True
+    Class "Rings"
+    SetTextColor 255 200 0
+    SetBorderColor 153 79 240 200
+    PlayAlertSound 16 95

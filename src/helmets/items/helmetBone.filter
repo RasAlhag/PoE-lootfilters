@@ -1,0 +1,10 @@
+﻿#
+Show
+    Rarity <= Rare
+    Class "Helmets"
+    BaseType "Bone Helmet"
+    SetTextColor 184 218 242
+    SetBorderColor 255 255 119
+    SetFontSize 35
+    PlayAlertSound 15 95
+

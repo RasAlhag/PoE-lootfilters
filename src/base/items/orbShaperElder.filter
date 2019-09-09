@@ -1,0 +1,10 @@
+﻿#
+Show
+    Class "Quest"
+    BaseType "Shaper's Orb" "Elder's Orb"
+    SetBorderColor 76 3 161
+    SetFontSize 45
+    PlayAlertSound 2 80
+    MinimapIcon 1 Green Hexagon
+    PlayEffect Green
+

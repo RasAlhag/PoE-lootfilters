@@ -1,0 +1,8 @@
+﻿#
+Show
+    Height = 3
+    Width = 1
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBorderColor 120 41 41
+

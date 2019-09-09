@@ -1,0 +1,7 @@
+﻿Show
+    Class "Currency"
+    BaseType "Oil"
+    SetTextColor 255 255 255
+    SetBackgroundColor 104 60 8
+    SetBorderColor 255 255 255 0
+    PlayAlertSound 10 85

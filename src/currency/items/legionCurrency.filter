@@ -1,0 +1,35 @@
+﻿#
+Show
+    Class "Currency"
+    BaseType "Timeless Karui Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+
+Show
+    Class "Currency"
+    BaseType "Timeless Maraketh Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 255 255 255
+
+Show
+    Class "Currency"
+    BaseType "Timeless Eternal Empire Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 0 0 255
+
+Show
+    Class "Currency"
+    BaseType "Timeless Templar Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 231 180 120
+
+Show
+    Class "Currency"
+    BaseType "Timeless Vaal Splinter"
+    SetTextColor 255 255 255
+    SetBackgroundColor 25 159 118
+    SetBorderColor 210 0 0
+
