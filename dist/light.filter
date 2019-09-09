@@ -890,7 +890,15 @@ Show
     PlayAlertSound 16 105
 
 
-#
+Show
+    Rarity <= Rare
+    Class "Helmets"
+    BaseType "Close Helmet"
+    SetTextColor 184 218 242
+    SetBorderColor 180 96 0
+    SetFontSize 35
+    PlayAlertSound 15 95
+
 Show
     Rarity <= Rare
     Class "Helmets"
