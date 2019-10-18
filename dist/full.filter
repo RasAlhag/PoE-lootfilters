@@ -1,4 +1,4 @@
-# Created by RasAlhag
+# Created by RasAlhag https://github.com/RasAlhag/PoE-lootfilters
 
 
 #
@@ -56,6 +56,16 @@ Show
     MinimapIcon 0 Red Hexagon
     PlayEffect Red
     
+Show
+    Identified True
+    HasExplicitMod "Veil"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 255 162 162
+    SetBorderColor 0 240 190
+    SetFontSize 45
+    PlayEffect White Temp
+
+
 
 Show
     LinkedSockets = 5
@@ -73,7 +83,6 @@ Show
 
 
 Show
-    LinkedSockets >= 3
     SocketGroup "RGB"
     Rarity = Normal
     SetBorderColor 30 144 255
@@ -341,14 +350,13 @@ Show
     MinimapIcon 2 Brown Star
     PlayEffect Brown
 
-
 Show
     Class "Currency"
     BaseType "Exalted Orb"
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
-    SetFontSize 50
-    PlayAlertSound 5 115
+    SetFontSize 90
+    PlayAlertSound 5 160
     MinimapIcon 0 Brown Star
     PlayEffect Brown
 
@@ -762,6 +770,15 @@ Show
 Show
     BaseType "Simple Steel Net"
     SetTextColor 120 212 231
+    SetBorderColor 255 255 255
+
+
+# 
+Show
+    Class "Currency"
+    BaseType "Stacked Deck"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0 255
     SetBorderColor 255 255 255
 
 
@@ -1275,11 +1292,34 @@ Show
     SetBorderColor 163 141 109
     PlayAlertSound 2 79
 
+Show
+    BaseType "Incubator"
+    SetTextColor 146 199 68
+    SetBackgroundColor 38 37 37 255
+
+
+Show
+    ShaperItem True
+    Rarity <= Rare
+    SetFontSize 45
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    PlayEffect Red
+
+Show
+    ElderItem True
+    Rarity <= Rare
+    SetTextColor 210 0 220
+    SetBackgroundColor 255 255 255 255
+    SetBorderColor 50 130 165 255
+    SetFontSize 45
+    PlayEffect Red
+
 
 Show
     Rarity = Unique
     PlayAlertSound 4 79
-
 
 Show
     Rarity = Rare
@@ -1321,7 +1361,7 @@ Show
 
 #
 Show
-    Class "Utility Flasks"
+    Class "Utility Flask"
     SetTextColor 50 230 100
     SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0

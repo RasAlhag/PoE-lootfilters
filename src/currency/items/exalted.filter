@@ -1,10 +1,9 @@
-
 Show
     Class "Currency"
     BaseType "Exalted Orb"
     SetTextColor 231 180 120
     SetBorderColor 210 0 220
-    SetFontSize 50
-    PlayAlertSound 5 115
+    SetFontSize 90
+    PlayAlertSound 5 160
     MinimapIcon 0 Brown Star
     PlayEffect Brown

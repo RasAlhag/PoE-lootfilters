@@ -1,0 +1,9 @@
+﻿Show
+    Identified True
+    HasExplicitMod "Veil"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 255 162 162
+    SetBorderColor 0 240 190
+    SetFontSize 45
+    PlayEffect White Temp
+

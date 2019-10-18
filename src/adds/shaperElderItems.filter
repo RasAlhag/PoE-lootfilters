@@ -1,0 +1,18 @@
+﻿Show
+    ShaperItem True
+    Rarity <= Rare
+    SetFontSize 45
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    PlayEffect Red
+
+Show
+    ElderItem True
+    Rarity <= Rare
+    SetTextColor 210 0 220
+    SetBackgroundColor 255 255 255 255
+    SetBorderColor 50 130 165 255
+    SetFontSize 45
+    PlayEffect Red
+

@@ -1,6 +1,5 @@
 
 Show
-    LinkedSockets >= 3
     SocketGroup "RGB"
     Rarity = Normal
     SetBorderColor 30 144 255

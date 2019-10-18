@@ -1,6 +1,6 @@
 ﻿#
 Show
-    Class "Utility Flasks"
+    Class "Utility Flask"
     SetTextColor 50 230 100
     SetBackgroundColor 255 255 255 0
     SetBorderColor 0 0 0 0
