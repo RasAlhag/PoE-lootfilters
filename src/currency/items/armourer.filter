@@ -1,0 +1,6 @@
+﻿Show
+    Class "Currency"
+    BaseType "Armourer's Scrap"
+    SetTextColor 170 158 130
+    SetBackgroundColor 255 255 255
+

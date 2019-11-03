@@ -1,7 +1,6 @@
-﻿#
-Show
-    Quality >= 20
+﻿Show
+    Rarity = Normal
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-    SetTextColor 255 255 119
+    SetTextColor 255 255 255
     SetBorderColor 27 162 155
 

@@ -1,0 +1,6 @@
+﻿Show
+    Class "Currency"
+    BaseType "Blacksmith's Whetstone"
+    SetTextColor 170 158 130
+    SetBackgroundColor 255 255 255
+
