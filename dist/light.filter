@@ -192,6 +192,13 @@ Show
     PlayAlertSound 3 85
 
 
+Show
+    Class "Currency"
+    BaseType "Armourer's Scrap"
+    SetTextColor 170 158 130
+    SetBackgroundColor 255 255 255
+
+
 #
 Show
     BaseType "Bestiary Orb"
@@ -206,6 +213,13 @@ Show
     SetTextColor 231 180 120
     SetBorderColor 231 180 120
     PlayAlertSound 3 79
+
+
+Show
+    Class "Currency"
+    BaseType "Blacksmith's Whetstone"
+    SetTextColor 170 158 130
+    SetBackgroundColor 255 255 255
 
 
 
@@ -927,11 +941,10 @@ Show
     PlayAlertSound 15 95
 
 
-#
 Show
-    Quality >= 20
+    Rarity = Normal
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-    SetTextColor 255 255 119
+    SetTextColor 255 255 255
     SetBorderColor 27 162 155
 
 
