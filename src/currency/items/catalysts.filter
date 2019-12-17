@@ -1,0 +1,7 @@
+﻿Show
+    Class "Stackable Currency"
+    BaseType "Turbulent Catalyst" "Imbued Catalyst" "Abrasive Catalyst" "Tempering Catalyst" "Fertile Catalyst" "Prismatic Catalyst" "Intrinsic Catalyst"
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 100 150 200
+    SetBorderColor 74 230 58
+    

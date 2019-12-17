@@ -1,0 +1,6 @@
+﻿Show
+    Class "Metamorph Sample"
+    BaseType "Metamorph Heart" "Metamorph Lung" "Metamorph Liver" "Metamorph Eye" "Metamorph Brain"
+    SetTextColor 0 128 0 255
+    SetBackgroundColor 217 217 217 255
+    SetBorderColor 74 230 58

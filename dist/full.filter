@@ -11,6 +11,14 @@ Show
     PlayEffect Brown
 
 
+Show
+    Class "Atlas Region Upgrade Item"
+    BaseType "Ivory Watchstone"
+    SetTextColor 68 126 183
+    SetBackgroundColor 2 2 2 255
+    SetBorderColor 74 230 58
+
+
 
 Show
     Class "Jewel"
@@ -36,6 +44,13 @@ Show
     SetBorderColor 210 0 220
     PlayAlertSound 4 79
 
+Show
+    Class "Metamorph Sample"
+    BaseType "Metamorph Heart" "Metamorph Lung" "Metamorph Liver" "Metamorph Eye" "Metamorph Brain"
+    SetTextColor 0 128 0 255
+    SetBackgroundColor 217 217 217 255
+    SetBorderColor 74 230 58
+
 #
 Show
     Class "Quest"
@@ -47,6 +62,13 @@ Show
     PlayEffect Green
 
 
+Show
+    Class "Quest Items"
+    BaseType "Crimson Watchstone" "Cobalt Watchstone" "Viridian Watchstone" "Golden Watchstone"
+    SetTextColor 0 128 0 255
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 74 230 58
+    
 
 Show
     Sockets = 6
@@ -235,6 +257,12 @@ Show
     SetBackgroundColor 255 255 255
 
 
+Show
+    Class "Stackable Currency"
+    BaseType "Awakener's Orb"
+    SetTextColor 54 100 146
+    SetBackgroundColor 222 222 222
+    
 #
 Show
     BaseType "Bestiary Orb"
@@ -298,6 +326,13 @@ Show
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 
+Show
+    Class "Stackable Currency"
+    BaseType "Turbulent Catalyst" "Imbued Catalyst" "Abrasive Catalyst" "Tempering Catalyst" "Fertile Catalyst" "Prismatic Catalyst" "Intrinsic Catalyst"
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 100 150 200
+    SetBorderColor 74 230 58
+    
 
 Show
     Class "Currency"
@@ -729,10 +764,9 @@ Show
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 
-
 Show
     Class "Currency"
-    BaseType "Apprentice Cartographer's Sextant"
+    BaseType "Simple Sextant"
     SetTextColor 255 255 255
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
@@ -741,7 +775,7 @@ Show
 
 Show
     Class "Currency"
-    BaseType "Journeyman Cartographer's Sextant"
+    BaseType "Prime Sextant"
     SetTextColor 255 200 0
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
@@ -750,13 +784,12 @@ Show
 
 Show
     Class "Currency"
-    BaseType "Master Cartographer's Sextant"
+    BaseType "Awakened Sextant"
     SetTextColor 255 0 0
     SetBorderColor 255 255 255
     PlayAlertSound 9 79
     MinimapIcon 0 Red Diamond
     PlayEffect Red
-
 
 
 Show
@@ -817,6 +850,13 @@ Show
     SetBorderColor 210 0 0
 
 
+Show
+    Class "Stackable Currency"
+    BaseType "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb"
+    SetTextColor 255 202 9
+    SetBackgroundColor 120 111 111
+    SetBorderColor 255 255 119
+    
 #
 Show
     BaseType "Thaumaturgical Net"

@@ -1,0 +1,7 @@
+﻿Show
+    Class "Atlas Region Upgrade Item"
+    BaseType "Ivory Watchstone"
+    SetTextColor 68 126 183
+    SetBackgroundColor 2 2 2 255
+    SetBorderColor 74 230 58
+
