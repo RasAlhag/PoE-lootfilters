@@ -1,7 +1,25 @@
-﻿#
-Show
+﻿Show
+    ItemLevel <= 59
     Rarity = Rare
     Class "Body Armours"
     SetTextColor 255 255 119
-    SetBorderColor 127 127 127
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 255 255 255
+
+Show
+    ItemLevel >= 60
+    ItemLevel <= 74
+    Rarity = Rare
+    Class "Body Armours"
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 71 22
+    SetBorderColor 255 255 255
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    Class "Body Armours"
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 45 71
+    SetBorderColor 255 255 255
 

@@ -1,5 +1,34 @@
+﻿Show
+    ItemLevel <= 59
+    Rarity = Rare
+    Class "Belts"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
 
 Show
-    Class "Belts"
+    ItemLevel >= 60
+    ItemLevel <= 74
     Rarity = Rare
+    Class "Belts"
     SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 255 200 0
+    SetFontSize 40
+
+Show
+    ItemLevel >= 75
+    ItemLevel <= 79
+    Rarity = Rare
+    Class "Belts"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 0 0 255
+
+Show
+    ItemLevel >= 80
+    Rarity = Rare
+    Class "Belts"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 54 100 146
+

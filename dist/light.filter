@@ -325,6 +325,18 @@ Show
     SetBorderColor 30 144 255
     PlayAlertSound 9 79
 
+Show 
+	Class Currency
+	BaseType == "Abyssal Delirium Orb" "Amorphous Delirium Orb" "Armoursmith's Delirium Orb" "Blacksmith's Delirium Orb" "Blighted Delirium Orb" "Cartographer's Delirium Orb" "Decadent Delirium Orb" "Delirium Orb" "Diviner's Delirium Orb" "Fine Delirium Orb" "Foreboding Delirium Orb" "Fossilised Delirium Orb" "Fragmented Delirium Orb" "Imperial Delirium Orb" "Jeweller's Delirium Orb" "Obscured Delirium Orb" "Portentous Delirium Orb" "Primal Delirium Orb" "Singular Delirium Orb" "Skittering Delirium Orb" "Thaumaturge's Delirium Orb" "Timeless Delirium Orb" "Whispering Delirium Orb"
+	SetFontSize 45
+	SetTextColor 0 0 0 255                 
+	SetBorderColor 0 0 0 255               
+	SetBackgroundColor 240 90 35 255       
+	DisableDropSound True
+	PlayAlertSound 2 300                    
+	PlayEffect Purple
+	MinimapIcon 1 Purple Circle
+	
 
 Show
     Class "Currency"
@@ -755,6 +767,14 @@ Show
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
+Show 
+	Class Currency
+	BaseType == "Chaos Shard" "Engineer's Shard" "Glassblower's Bauble" "Horizon Shard" "Regal Shard" "Alchemy Shard" "Regal Shard" "Binding Shard" "Alteration Shard" "Transmutation Shard" "Ancient Shard" "Harbinger's Shard"
+	SetFontSize 45
+	SetTextColor 0 0 0 255                 
+	SetBorderColor 0 0 0 200               
+	SetBackgroundColor 210 178 135 255
+	
 
 Show
     Class "Currency"
@@ -847,11 +867,40 @@ Show
     PlayAlertSound 16 85
 
 
+Show
+    ItemLevel <= 59
+    Rarity = Rare
+    Class "Belts"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
 
 Show
-    Class "Belts"
+    ItemLevel >= 60
+    ItemLevel <= 74
     Rarity = Rare
+    Class "Belts"
     SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 255 200 0
+    SetFontSize 40
+
+Show
+    ItemLevel >= 75
+    ItemLevel <= 79
+    Rarity = Rare
+    Class "Belts"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 0 0 255
+
+Show
+    ItemLevel >= 80
+    Rarity = Rare
+    Class "Belts"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 54 100 146
+
 
 #
 Show
@@ -879,11 +928,36 @@ Show
     SetTextColor 255 200 0
     SetBorderColor 153 79 240 200
     PlayAlertSound 16 95
+Show
+    ItemLevel < 60
+    Rarity = Rare
+    Class "Amulets"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
 
 Show
-    Class "Amulets"
+    ItemLevel >= 60
+    ItemLevel <= 74
     Rarity = Rare
-    SetTextColor 255 200 0
+    Class "Amulets"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 255 200 0
+    SetFontSize 40
+
+Show
+    ItemLevel >= 75
+    ItemLevel <= 79
+    Rarity = Rare
+    Class "Amulets"
+    SetTextColor 0 0 255
+    SetBackgroundColor 255 200 0
+
+Show
+    ItemLevel >= 80
+    Rarity = Rare
+    Class "Amulets"
+    SetTextColor 54 100 146
+    SetBackgroundColor 255 200 0    
 
 #
 Show
@@ -902,37 +976,43 @@ Show
 
 #
 Show
-    ItemLevel >= 80
-    Rarity = Normal
-    Class "Rings"
-    SetTextColor 184 218 242
-    SetBackgroundColor 0 0 0
-    SetBorderColor 0 0 255
-
-
-#
-Show
-    ItemLevel >= 84
-    Rarity = Normal
-    Class "Rings"
-    SetTextColor 184 218 242
-    SetBackgroundColor 0 0 0
-    SetBorderColor 231 180 120
-
-
-#
-Show
     BaseType "Opal Ring"
     SetTextColor 0 0 255
     SetBackgroundColor 184 218 242
     PlayAlertSoundPositional 14 79
 
 
+Show
+    ItemLevel <= 59
+    Rarity = Rare
+    Class "Rings"
+    SetTextColor 255 200 0
+    SetBackgroundColor 255 255 255 0
 
 Show
-    Class "Rings"
+    ItemLevel >= 60
+    ItemLevel <= 74
     Rarity = Rare
-    SetTextColor 255 200 0
+    Class "Rings"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 255 200 0
+    SetFontSize 40
+
+Show
+    ItemLevel >= 75
+    ItemLevel <= 79
+    Rarity = Rare
+    Class "Rings"
+    SetTextColor 0 0 255
+    SetBackgroundColor 255 200 0
+
+Show
+    ItemLevel >= 80
+    Rarity = Rare
+    Class "Rings"
+    SetTextColor 54 100 146
+    SetBackgroundColor 255 200 0
+
 
 #
 Show
@@ -961,15 +1041,6 @@ Show
     SetFontSize 40
     PlayAlertSound 16 105
 
-
-Show
-    Rarity <= Rare
-    Class "Helmets"
-    BaseType "Close Helmet"
-    SetTextColor 184 218 242
-    SetBorderColor 180 96 0
-    SetFontSize 35
-    PlayAlertSound 15 95
 
 Show
     Rarity <= Rare

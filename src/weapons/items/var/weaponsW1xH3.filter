@@ -1,8 +1,19 @@
-﻿#
+﻿Show
+    Height = 3
+    Width = 1
+    ItemLevel >= 60
+    ItemLevel <= 74
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 71 22
+    SetBorderColor 120 41 41
+
 Show
     Height = 3
     Width = 1
+    ItemLevel >= 75
     Rarity = Rare
     SetTextColor 255 255 119
+    SetBackgroundColor 0 45 71
     SetBorderColor 120 41 41
 

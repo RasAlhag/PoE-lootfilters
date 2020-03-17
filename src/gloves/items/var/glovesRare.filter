@@ -1,7 +1,25 @@
+﻿Show
+    ItemLevel <= 59
+    Rarity = Rare
+    Class "Gloves"
+    SetTextColor 255 255 119
+    SetBackgroundColor 255 255 255 0
+    SetBorderColor 35 247 35
 
 Show
-    Class "Gloves"
+	Class "Gloves"
     Rarity = Rare
+    ItemLevel >= 60
+    ItemLevel <= 74
     SetTextColor 255 255 119
-    SetBackgroundColor 0 0 0
-    SetBorderColor 0 128 0
+    SetBackgroundColor 0 71 22
+    SetBorderColor 35 247 35
+
+Show
+	Class "Gloves"
+    Rarity = Rare
+    ItemLevel >= 75
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 45 71
+    SetBorderColor 35 247 35
+
